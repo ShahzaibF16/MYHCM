@@ -27,14 +27,14 @@ const CounterAreaOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp duration={1} delay={0} start={0} end={200} />{" "}
+                          <CountUp duration={1} delay={0} start={0} end={40000} />{" "}
                           +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Team member</p>
+                <p className='text-white'>Users</p>
               </div>
             </div>
             <div
@@ -52,14 +52,14 @@ const CounterAreaOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp duration={1} delay={0} start={0} end={10} />{" "}
-                          k+
+                          <CountUp duration={1} delay={0} start={0} end={14} />{" "}
+                          +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Team member</p>
+                <p className='text-white'>Modules</p>
               </div>
             </div>
             <div
@@ -77,7 +77,7 @@ const CounterAreaOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp duration={3} delay={0} start={0} end={200} />{" "}
+                          <CountUp duration={3} delay={0} start={0} end={50} />{" "}
                           +
                         </span>
                       )
@@ -102,14 +102,14 @@ const CounterAreaOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp duration={3} delay={0} start={0} end={230} />{" "}
+                          <CountUp duration={3} delay={0} start={0} end={15} />{" "}
                           +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Team member</p>
+                <p className='text-white'>Countries</p>
               </div>
             </div>
           </div>

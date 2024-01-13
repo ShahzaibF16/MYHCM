@@ -9,7 +9,7 @@ const BannerTwo = () => {
       {/* ================== BannerTwo Start ==================*/}
       <div
         className='banner-area bg-relative banner-area-2 bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/bg/8.png")' }}
+        style={{ backgroundImage: 'url("./assets/img/banner-3/5.png")' }}
       >
         <div className='container'>
           <div className='row'>
@@ -30,7 +30,7 @@ const BannerTwo = () => {
                   data-aos-duration='1500'
                 >
                   {" "}
-                  Revolutionize Your <span>Workflow</span> With SaaS
+                  MyHCM World's Leading <span>HR</span> Software
                 </h2>
                 <p
                   className='content pe-xl-5 '
@@ -38,9 +38,10 @@ const BannerTwo = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                  And In Order To Make A Business, Brand Advertising And
-                  Marketing Plays An Important Role. Similarly, In Making
-                  Cultivation Business Are Necessary.
+                  Gone are those days of using attendance machines.
+                  Mark your attendance with MyHCM's goe-fenced and 
+                  geo-tagged attendance on your mobile device. All
+                  you need to do is open your mobile app.
                 </p>
                 <Link
                   className='btn btn-border-base '
@@ -49,7 +50,7 @@ const BannerTwo = () => {
                   data-aos-duration='1500'
                   to='/about'
                 >
-                  Discover More <FaPlus />
+                  All Modules <FaPlus />
                 </Link>
                 <div
                   className='d-inline-block align-self-center '
@@ -62,7 +63,7 @@ const BannerTwo = () => {
                     className='video-play-btn-hover'
                   >
                     <img src='assets/img/video.svg' alt='img' />{" "}
-                    <h6 className='d-inline-block'>how we work</h6>
+                    <h6 className='d-inline-block'>Request a free Demo</h6>
                   </span>
 
                   <div></div>
@@ -71,7 +72,7 @@ const BannerTwo = () => {
                   channel='youtube'
                   autoplay
                   isOpen={isOpen}
-                  videoId='XM6kTQPzzpQ'
+                  videoId='OQQ2KoLcmZI'
                   onClose={() => setOpen(false)}
                 />
               </div>

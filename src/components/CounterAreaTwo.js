@@ -79,13 +79,13 @@ const CounterAreaTwo = () => {
                       {({ isVisible }) =>
                         isVisible && (
                           <span className='counter'>
-                            <CountUp delay={0} start={0} end={200} /> +
+                            <CountUp delay={0} start={0} end={40000} /> +
                           </span>
                         )
                       }
                     </TrackVisibility>
                   </h4>
-                  <p className='mb-0'>Team member</p>
+                  <p className='mb-0'>Users</p>
                 </div>
               </div>
             </div>

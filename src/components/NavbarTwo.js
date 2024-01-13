@@ -92,25 +92,13 @@ const NavbarTwo = () => {
               <li className='menu-item-has-children'>
                 <a href='#'>Home</a>
                 <ul className='sub-menu'>
-                  <li>
+                  {/* <li>
                     <Link to='/'>Home 01</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-2'>Home 02</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-3'>Home 03</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-4'>Home 04</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-5'>Home 05</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Service</a>
+                <a href='#'>Modules</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/service'>Service</Link>
@@ -121,7 +109,7 @@ const NavbarTwo = () => {
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
+                <a href='#'>Team</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
@@ -149,13 +137,13 @@ const NavbarTwo = () => {
                 </ul>
               </li>
               <li>
-                <Link to='/contact'>Contact Us</Link>
+                <Link to='/contact'>Careers</Link>
               </li>
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
             <Link className='btn btn-border-base' to='/about'>
-              Discover More <FaPlus />
+              Request Demo <FaPlus />
             </Link>
           </div>
         </div>
