@@ -7,22 +7,34 @@ const BrandAreaOne = () => {
         <div className='client-slider'>
           <Marquee gradient={false}>
             <div className='thumb'>
-              <img src='assets/img/client/7.svg' alt='img' />
+              <img src='assets/img/client/10.png' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/8.svg' alt='img' />
+              <img src='assets/img/client/8.png' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/9.svg' alt='img' />
+              <img src='assets/img/client/9.png' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/11.svg' alt='img' />
+              <img src='assets/img/client/1.png' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/8.svg' alt='img' />
+              <img src='assets/img/client/2.png' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/9.svg' alt='img' />
+              <img src='assets/img/client/3.png' alt='img' />
+            </div>
+            <div className='thumb'>
+              <img src='assets/img/client/4.png' alt='img' />
+            </div>
+            <div className='thumb'>
+              <img src='assets/img/client/5.png' alt='img' />
+            </div>
+            <div className='thumb'>
+              <img src='assets/img/client/6.png' alt='img' />
+            </div>
+            <div className='thumb'>
+              <img src='assets/img/client/7.png' alt='img' />
             </div>
           </Marquee>
         </div>

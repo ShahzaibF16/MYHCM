@@ -7,9 +7,9 @@ const WorkProcessTwo = () => {
       <div className='work-process-area pd-top-120 pd-bottom-90'>
         <div className='container'>
           <div className='section-title text-center'>
-            <h6 className='sub-title'>OUR SIMPLE PROCESS</h6>
+            <h6 className='sub-title'>MODULES</h6>
             <h2 className='title'>
-              World <span>Best Step</span> Our It Process
+              MyHCM Contains <span>14 Modules</span>
             </h2>
           </div>
           <div className='row'>

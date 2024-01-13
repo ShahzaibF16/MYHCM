@@ -33,17 +33,26 @@ const HomeTwo = () => {
       {/* Banner Two */}
       <BannerTwo />
 
+      {/* Counter Area One */}
+      <CounterAreaOne />
+
+      {/* Contact Area One */}
+      <ContactAreaOne />
+
       {/* About Area Two */}
       <AboutAreaTwo />
 
       {/* About Area Three */}
-      <AboutAreaThree />
+      {/* <AboutAreaThree /> */}
+      {/* Brand Area One */}
+      <BrandAreaOne />
+
 
       {/* Service Area One */}
       <ServiceAreaOne />
 
       {/* About Area Two */}
-      <ServiceAreaTwo />
+      {/* <ServiceAreaTwo /> */}
 
       {/* Service Area Five */}
       <ServiceAreaFive />
@@ -65,12 +74,6 @@ const HomeTwo = () => {
 
       {/* Team Area One */}
       <TeamAreaOne />
-
-      {/* Counter Area One */}
-      <CounterAreaOne />
-
-      {/* Contact Area One */}
-      <ContactAreaOne />
 
       {/* Pricing Area Two */}
       <PricingAreaTwo />

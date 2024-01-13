@@ -22,9 +22,9 @@ const ContactAreaThree = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mb-0'>
-                <h6 className='sub-title'>GET IN TOUCH</h6>
+                <h6 className='sub-title'>ATTENDANCE MANAGEMENT SYSTEM</h6>
                 <h2 className='title mb-4'>
-                  Smarter Applications For The <span>Smarter</span> Individuals
+                  Geo Fenced <span>Attendance</span> Management
                 </h2>
                 <div className='media mb-3'>
                   <div className='media-left me-3'>

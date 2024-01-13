@@ -34,7 +34,7 @@ const CounterAreaOne = () => {
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Users</p>
+                <p className='text-white'>System Users</p>
               </div>
             </div>
             <div
@@ -77,14 +77,14 @@ const CounterAreaOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp duration={3} delay={0} start={0} end={50} />{" "}
+                          <CountUp duration={3} delay={0} start={0} end={500} />{" "}
                           +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Team member</p>
+                <p className='text-white'>Worldwide Clients</p>
               </div>
             </div>
             <div
