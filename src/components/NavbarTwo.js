@@ -89,60 +89,63 @@ const NavbarTwo = () => {
             id='itech_main_menu'
           >
             <ul className='navbar-nav menu-open text-lg-end'>
-              <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
-                  {/* <li>
-                    <Link to='/'>Home 01</Link>
-                  </li> */}
-                </ul>
+              <li className=''>
+                <Link to='/'>Home</Link>
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Modules</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/service'>Service</Link>
+                    <Link to='#'>Employee Profile</Link>
                   </li>
                   <li>
-                    <Link to='/service-details'>Service Single</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className='menu-item-has-children'>
-                <a href='#'>Team</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/about'>About Us</Link>
+                    <Link to='#'>Employee Self Service</Link>
                   </li>
                   <li>
-                    <Link to='/team'>Team</Link>
+                    <Link to='#'>HR Analytics & Reports</Link>
                   </li>
                   <li>
-                    <Link to='/team-details'>Team Details</Link>
+                    <Link to='#'>Learning Management</Link>
                   </li>
                   <li>
-                    <Link to='/case-study-details'>Case Study Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/blog'>Blog</Link>
+                    <Link to='#'>Mobile App</Link>
                   </li>
                   <li>
-                    <Link to='/blog-details'>Blog Details</Link>
+                    <Link to='#'>Recruitment</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Time Management</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Organizational Charts</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Leave Absence Management</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Performance Management</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Payroll</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Voice Enabled Mobile Services</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to='/contact'>Careers</Link>
+                <Link to='/team'>Team</Link>
+              </li>
+              <li>
+                <Link to='#'>Blog</Link>
+              </li>
+              <li>
+                <Link to='#'>Careers</Link>
               </li>
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
-            <Link className='btn btn-border-base' to='/about'>
+            <Link className='btn btn-border-base' to='/contact'>
               Request Demo <FaPlus />
             </Link>
           </div>

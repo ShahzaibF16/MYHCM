@@ -34,7 +34,7 @@ const CounterAreaOne = () => {
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>System Users</p>
+                <p className='text-white'>Users</p>
               </div>
             </div>
             <div

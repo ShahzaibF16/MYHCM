@@ -1,17 +1,22 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import NavBarTwo from "../components/NavbarTwo";
 import TeamAreaGroup from "../components/TeamAreaGroup";
+import TeamDetailsGroup from "../components/TeamDetailsGroup";
+
 
 const Team = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavBarTwo />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Team"} />
+      <Breadcrumb title={"Meet Our Amazing Team"} />
+
+      {/* Team Details Group */}
+      <TeamDetailsGroup />
 
       {/* Team Area Group */}
       <TeamAreaGroup />

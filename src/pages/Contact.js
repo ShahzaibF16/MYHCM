@@ -2,16 +2,16 @@ import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import ContactMain from "../components/ContactMain";
 import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import NavBarTwo from "../components/NavbarTwo";
 
 const Contact = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavBarTwo />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Contact"} />
+      <Breadcrumb title={"Get A Free Demo"} />
 
       {/* Contact Main */}
       <ContactMain />

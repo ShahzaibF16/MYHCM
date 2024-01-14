@@ -41,7 +41,7 @@ const HomeTwo = () => {
       <ContactAreaOne />
 
       {/* Work Process Two */}
-      <WorkProcessTwo />
+      <WorkProcessTwo/>
 
       {/* Contact Area Three */}
       <ContactAreaThree />

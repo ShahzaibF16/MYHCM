@@ -44,12 +44,12 @@ const ContactAreaOne = () => {
                     <div className='row'>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your Name' />
+                          <input type='text' placeholder='First Name' />
                         </div>
                       </div>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your Email' />
+                          <input type='text' placeholder='Last Name' />
                         </div>
                       </div>
                       <div className='col-lg-6'>
@@ -59,12 +59,22 @@ const ContactAreaOne = () => {
                       </div>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your Subject' />
+                          <input type='text' placeholder='Your Email' />
+                        </div>
+                      </div>
+                      <div className='col-lg-6'>
+                        <div className='single-input-inner style-border'>
+                          <input type='text' placeholder='Your City' />
+                        </div>
+                      </div>
+                      <div className='col-lg-6'>
+                        <div className='single-input-inner style-border'>
+                          <input type='text' placeholder='Your Company' />
                         </div>
                       </div>
                       <div className='col-lg-12'>
                         <div className='single-input-inner style-border'>
-                          <textarea placeholder='Message' defaultValue={""} />
+                          <textarea placeholder='Your Query' defaultValue={""} />
                         </div>
                       </div>
                       <div className='col-12'>

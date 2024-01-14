@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const TeamAreaGroup = () => {
@@ -12,7 +12,7 @@ const TeamAreaGroup = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/1.png' alt='img' />
+                  <img src='assets/img/team/haris.jpg' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -21,7 +21,7 @@ const TeamAreaGroup = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -33,16 +33,16 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/team-details'>Devon Lane</Link>
+                    <Link to='#'>Haris Saeed</Link>
                   </h5>
-                  <p>Merketing Department</p>
+                  <p>National Sales Manager</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/2.png' alt='img' />
+                  <img src='assets/img/team/marium.jpeg' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -51,7 +51,7 @@ const TeamAreaGroup = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -63,16 +63,16 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Darrell Steward</Link>
+                  <Link to='#'>Mariam Khan</Link>
                   </h5>
-                  <p>It Department</p>
+                  <p>Growth Manager</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/3.png' alt='img' />
+                  <img src='assets/img/team/amama.jpg' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -81,7 +81,7 @@ const TeamAreaGroup = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -93,16 +93,16 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Bessie Cooper</Link>
+                  <Link to='#'>Amama Riaz</Link>
                   </h5>
-                  <p>Software Department</p>
+                  <p>Sales Manager</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/1.png' alt='img' />
+                  <img src='assets/img/team/ukasha.jpeg' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -111,7 +111,7 @@ const TeamAreaGroup = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -123,16 +123,16 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Devon Lane</Link>
+                  <Link to='#'>Ukasha Ali Khan</Link>
                   </h5>
-                  <p>Merketing Department</p>
+                  <p>Product Lead</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/2.png' alt='img' />
+                  <img src='assets/img/team/arif.jpeg' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -141,7 +141,7 @@ const TeamAreaGroup = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -153,16 +153,16 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Darrell Steward</Link>
+                  <Link to='#'>Talha Arif</Link>
                   </h5>
-                  <p>It Department</p>
+                  <p>Technical Team Lead</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/3.png' alt='img' />
+                  <img src='assets/img/team/ahsan.jpeg' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -171,7 +171,7 @@ const TeamAreaGroup = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -183,9 +183,9 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Bessie Cooper</Link>
+                  <Link to='#'>Ahsan Amin</Link>
                   </h5>
-                  <p>Software Department</p>
+                  <p>Business Unit Lead</p>
                 </div>
               </div>
             </div>

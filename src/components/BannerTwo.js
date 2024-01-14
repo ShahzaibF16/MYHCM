@@ -47,7 +47,7 @@ const BannerTwo = () => {
                   data-aos='fade-right'
                   data-aos-delay='300'
                   data-aos-duration='1500'
-                  to='/about'
+                  to='#modules'
                 >
                   All Modules <FaPlus />
                 </Link>
@@ -56,24 +56,24 @@ const BannerTwo = () => {
                   data-aos='fade-right'
                   data-aos-delay='350'
                   data-aos-duration='1500'
-                >
+                ><Link to='/contact'>
                   <span
-                    onClick={() => setOpen(true)}
+                    // onClick={() => setOpen(true)}
                     className='video-play-btn-hover'
                   >
                     <img src='assets/img/req.png' alt='img' />{" "}
                     <h6 className='d-inline-block'>Request a free Demo</h6>
                   </span>
-
+                  </Link >
                   <div></div>
                 </div>
-                <ModalVideo
+                {/* <ModalVideo
                   channel='youtube'
                   autoplay
                   isOpen={isOpen}
                   videoId='OQQ2KoLcmZI'
                   onClose={() => setOpen(false)}
-                />
+                /> */}
               </div>
             </div>
             <div

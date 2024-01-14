@@ -19,46 +19,31 @@ const TeamDetailsGroup = () => {
             <div className='row'>
               <div className='col-lg-5 text-center'>
                 <div className='thumb mb-4 mb-lg-0'>
-                  <img src='assets/img/team/7.png' alt='img' />
+                  <img src='assets/img/team/shahrukh.jpeg' alt='img' />
                 </div>
               </div>
               <div className='col-lg-7 align-self-center ps-xl-5'>
-                <h3 className='mb-2'>Christine Pearson</h3>
-                <span className='designation'>Design Expert</span>
+                <h3 className='mb-2'>Shahrukh Nadeem</h3>
+                <span className='designation'>Chief Executive Officer</span>
                 <div className='details mt-4'>
-                  <h4>About Me</h4>
+                  <h4>Message</h4>
                   <p>
-                    Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy
-                    veldt fox. Bright vixens jump; dozy fowl The quick, brown
-                    fox jumps over a lazy dog.{" "}
+                    We want to help organizations in Pakistan take the digital leap in
+                    terms of Human Resource Management.{" "}
                   </p>
                   <p>
-                    DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by
-                    fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad
-                    nymph, for quick jigs vex! Fox nymphs grab quick-jived
-                    waltz. Brick quiz whangs jumpy veldt fox. Bright vixens
-                    jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim.
+                    It’s our goal to transform legacy HR into digital and more analytics
+                    oriented organ of the organization. We strongly believe that HR is
+                    the most critical and indispensable capital any organisation has
+                    and we help it further channelise and optimise it through our Cutting
+                    edge, Cloud based, Microsoft enabled and Intelligent HR software with
+                    a robust and user friendly Mobile App.
                   </p>
                 </div>
                 <ul className='social-media style-base mt-4 pt-2'>
                   <li>
                     <a href='#'>
                       <FaFacebookF aria-hidden='true' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <FaTwitter aria-hidden='true' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <FaInstagram aria-hidden='true' />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      <FaPinterest aria-hidden='true' />
                     </a>
                   </li>
                   <li>
@@ -74,7 +59,7 @@ const TeamDetailsGroup = () => {
       </div>
 
       {/* service area start */}
-      <div className='service-area bg-relative pd-bottom-90'>
+      {/* <div className='service-area bg-relative pd-bottom-90'>
         <div className='container'>
           <div className='section-title '>
             <h6 className='sub-title'>Service</h6>
@@ -140,7 +125,7 @@ const TeamDetailsGroup = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* ================= TeamDetailsGroup End =================*/}
     </>

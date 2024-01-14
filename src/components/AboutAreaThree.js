@@ -41,20 +41,20 @@ const AboutAreaThree = () => {
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the dum
+                        <FaCheckCircle /> Customizable to Your Needs
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Future-Proof Your HR Processes
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the dum
+                        <FaCheckCircle /> Security Redefined
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> User-Friendly Interface
                       </li>
                     </ul>
                   </div>
