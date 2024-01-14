@@ -22,103 +22,183 @@ const ServiceAreaFive = () => {
               <div className='single-service-inner-3 single-service-inner-3-left'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/7.svg' alt='img' />
+                    <img src='assets/img/service-icon/14.png' alt='img' />
                   </div>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Automobiles</Link>
+                    <Link to='#'>Automobiles</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    
                   </p>
                 </div>
               </div>
               <div className='single-service-inner-3 single-service-inner-3-left'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/8.svg' alt='img' />
+                    <img src='assets/img/service-icon/15.png' alt='img' />
                   </div>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Real Estate</Link>
+                    <Link to='#'>Real Estate</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    
+                  </p>
+                </div>
+              </div>
+              <div className='single-service-inner-3 single-service-inner-3-left'>
+                <div className='thumb'>
+                  <div className='thumb-inner'>
+                    <img src='assets/img/service-icon/16.png' alt='img' />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>
+                    <Link to='#'>Telco</Link>
+                  </h5>
+                  <p className='mb-0'>
+                    
+                  </p>
+                </div>
+              </div>
+              <div className='single-service-inner-3 single-service-inner-3-left'>
+                <div className='thumb'>
+                  <div className='thumb-inner'>
+                    <img src='assets/img/service-icon/17.png' alt='img' />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>
+                    <Link to='#'>Health Care</Link>
+                  </h5>
+                  <p className='mb-0'>
+                    
+                  </p>
+                </div>
+              </div>
+              <div className='single-service-inner-3 single-service-inner-3-left'>
+                <div className='thumb'>
+                  <div className='thumb-inner'>
+                    <img src='assets/img/service-icon/18.png' alt='img' />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>
+                    <Link to='#'>Media</Link>
+                  </h5>
+                  <p className='mb-0'>
+                    
                   </p>
                 </div>
               </div>
               <div className='single-service-inner-3 single-service-inner-3-left mb-0'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/9.svg' alt='img' />
+                    <img src='assets/img/service-icon/19.png' alt='img' />
                   </div>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Telco</Link>
+                    <Link to='#'>Hospitality</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    
                   </p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none'>
               <div className='service-thumb service-middle-section align-self-end'>
-                <img src='assets/img/about/22.png' alt='img' />
+                <img src='assets/img/about/224.png' alt='img' />
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner-3 single-service-inner-3-right'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/10.svg' alt='img' />
+                    <img src='assets/img/service-icon/20.png' alt='img' />
                   </div>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Technology</Link>
+                    <Link to='#'>Technology</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
                   </p>
                 </div>
               </div>
               <div className='single-service-inner-3 single-service-inner-3-right'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/11.svg' alt='img' />
+                    <img src='assets/img/service-icon/21.png' alt='img' />
                   </div>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Education</Link>
+                    <Link to='#'>Education</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    
+                  </p>
+                </div>
+              </div>
+              <div className='single-service-inner-3 single-service-inner-3-right'>
+                <div className='thumb'>
+                  <div className='thumb-inner'>
+                    <img src='assets/img/service-icon/22.png' alt='img' />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>
+                    <Link to='#'>Banking</Link>
+                  </h5>
+                  <p className='mb-0'>
+                    
+                  </p>
+                </div>
+              </div>
+              <div className='single-service-inner-3 single-service-inner-3-right'>
+                <div className='thumb'>
+                  <div className='thumb-inner'>
+                    <img src='assets/img/service-icon/23.png' alt='img' />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>
+                    <Link to='#'>Pharmaceutical</Link>
+                  </h5>
+                  <p className='mb-0'>
+                  </p>
+                </div>
+              </div>
+              <div className='single-service-inner-3 single-service-inner-3-right'>
+                <div className='thumb'>
+                  <div className='thumb-inner'>
+                    <img src='assets/img/service-icon/24.png' alt='img' />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>
+                    <Link to='#'>Retail</Link>
+                  </h5>
+                  <p className='mb-0'>
                   </p>
                 </div>
               </div>
               <div className='single-service-inner-3 single-service-inner-3-right mb-0'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/12.svg' alt='img' />
+                    <img src='assets/img/service-icon/25.png' alt='img' />
                   </div>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Banking</Link>
+                    <Link to='#'>Manufacturing</Link>
                   </h5>
                   <p className='mb-0'>
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
                   </p>
                 </div>
               </div>

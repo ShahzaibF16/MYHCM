@@ -27,7 +27,7 @@
     .thumb {
       margin-bottom: 20px;
       img {
-        max-width: 150px;
+        max-width: 180px;
       }
     }
     .details {
@@ -46,7 +46,7 @@
         margin-top: 26px;
         li {
           a:hover {
-            background: var(--main-color);
+            background: #000000;
             color: #fff;
           }
         }
@@ -93,12 +93,15 @@
         position: relative;
         svg {
           margin-right: 8px;
-          color: #333f4d;
+          color: #333333;
           transition: 0.4s;
         }
         &:hover {
           svg {
-            color: var(--main-color);
+            color: var(--main-color2);
+          }
+          a{
+            color: var(--main-color2);
           }
         }
         &.sky {
@@ -143,6 +146,9 @@
   }
   .widget-recent-post ul li .media .media-body .title {
     color: #fff;
+  }
+  .widget-recent-post ul li .media .media-body .title a:hover {
+    color: #333333;
   }
   .widget-recent-post ul li .media .media-body .title.sky a:hover {
     color: #50af9b;

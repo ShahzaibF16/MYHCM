@@ -12,7 +12,7 @@ const CareerAreaOne = () => {
               <div className='section-title text-center'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  The Power Of <span>Software</span> The Simplicity Of Solutions
+                  Experience The <span>Power</span> Of Our Solutions
                 </h2>
               </div>
             </div>
@@ -34,7 +34,7 @@ const CareerAreaOne = () => {
                   aria-controls='nav-mission'
                   aria-selected='true'
                 >
-                  Mission
+                  Enhanced Productivity
                 </button>
                 <button
                   className='nav-link'
@@ -46,7 +46,7 @@ const CareerAreaOne = () => {
                   aria-controls='nav-vision'
                   aria-selected='false'
                 >
-                  Vision
+                  Time & Cost Efficiency
                 </button>
                 <button
                   className='nav-link'
@@ -58,19 +58,7 @@ const CareerAreaOne = () => {
                   aria-controls='nav-career'
                   aria-selected='false'
                 >
-                  Careers
-                </button>
-                <button
-                  className='nav-link'
-                  id='nav-solution-tab'
-                  data-bs-toggle='tab'
-                  data-bs-target='#nav-solution'
-                  type='button'
-                  role='tab'
-                  aria-controls='nav-solution'
-                  aria-selected='false'
-                >
-                  Solutions
+                  Intuitive Consolidated System
                 </button>
               </div>
             </nav>
@@ -84,39 +72,13 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/16.png' alt='img' />
+                      <img src='assets/img/about/199.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
-                      <h3 className='mb-3'>The software development</h3>
+                      <h3 className='mb-3'>Enhanced Productivity</h3>
                       <p className='mb-3'>
-                        A software company is a business that designs, develops,
-                        and sells software products to individuals and
-                        organizations. These companies use a variety of
-                        programming languages and technologies to create custom
-                        software solutions for a wide range of industries
+                        Upgrade to our HRM software for smart time investment. Focus on people, not processes, enhancing team productivity efficiently. Go digital to boost organization productivity, eliminating extensive paperwork.
                       </p>
-                      <div className='row'>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -130,39 +92,13 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/17.png' alt='img' />
+                      <img src='assets/img/about/177.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
-                      <h3 className='mb-3'>The software development</h3>
+                      <h3 className='mb-3'>Time & Cost Efficiency</h3>
                       <p className='mb-3'>
-                        A software company is a business that designs, develops,
-                        and sells software products to individuals and
-                        organizations. These companies use a variety of
-                        programming languages and technologies to create custom
-                        software solutions for a wide range of industries
+                        MyHCM's cloud-based HRM software ensures consistent team management anywhere. With controlled HR processes, it frees up time for essential tasks, allowing businesses to save significant effort and focus on priorities, leaving no room for pending projects.
                       </p>
-                      <div className='row'>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the dum
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the dum
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -176,85 +112,13 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/17.png' alt='img' />
+                      <img src='assets/img/about/188.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
-                      <h3 className='mb-3'>The software development</h3>
+                      <h3 className='mb-3'>Intuitively Designed Consolidated System</h3>
                       <p className='mb-3'>
-                        A software company is a business that designs, develops,
-                        and sells software products to individuals and
-                        organizations. These companies use a variety of
-                        programming languages and technologies to create custom
-                        software solutions for a wide range of industries
+                        MyHCM's app, included with our HRM software, seamlessly integrates with a user-friendly interface. Employees access productivity features, centralizing HR information and saving time. Now, crucial data is readily available on a single platform, preventing oversight.
                       </p>
-                      <div className='row'>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the dum
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the dum
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className='tab-pane fade'
-                id='nav-solution'
-                role='tabpanel'
-                aria-labelledby='nav-solution-tab'
-              >
-                <div className='career-wrap'>
-                  <div className='row'>
-                    <div className='col-lg-5'>
-                      <img src='assets/img/about/16.png' alt='img' />
-                    </div>
-                    <div className='col-lg-7'>
-                      <h3 className='mb-3'>The software development</h3>
-                      <p className='mb-3'>
-                        A software company is a business that designs, develops,
-                        and sells software products to individuals and
-                        organizations. These companies use a variety of
-                        programming languages and technologies to create custom
-                        software solutions for a wide range of industries
-                      </p>
-                      <div className='row'>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the dum
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                        <div className='col-md-6'>
-                          <ul className='single-list-inner style-check style-heading style-check mb-3'>
-                            <li>
-                              <FaCheckCircle /> Mistakes To Avoid to the dum
-                            </li>
-                            <li>
-                              <FaCheckCircle /> Your Startup industry stan
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>

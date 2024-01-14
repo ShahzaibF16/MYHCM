@@ -18,7 +18,7 @@ const AboutAreaThree = () => {
               <div className='about-thumb-inner mb-4 mb-lg-0'>
                 <img
                   className='main-img'
-                  src='assets/img/about/aboutt.png'
+                  src='assets/img/about/aboutplay.png'
                   alt='img'
                 />
               </div>
@@ -32,11 +32,10 @@ const AboutAreaThree = () => {
               <div className='section-title mb-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  Get The<span>App</span> Playstore & iOS
+                  Get Our<span> Mobile App</span> Now
                 </h2>
                 <p className='content mb-4'>
-                  You can access SaaS applications through a web browser or
-                  mobile app, as long as you have an internet connection.
+                  Experience user-friendly HR on the go. Stay connected with your teams effortlessly using our simple and accessible app
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -61,16 +60,16 @@ const AboutAreaThree = () => {
                   </div>
                 </div>
                 <p className='content'>
-                  SaaS providers typically invest heavily in security measures
-                  to protect customer data, such as encryption and multi-factor
-                  authentication. However, it is important to research and
-                  choose a reputable provider and also to ensure that
+                  Our HRM software lets you focus on people rather
+                  than on the processes.
+                  Trusted By over 500 Customers Worldwide!
+                  App is available on Android and iOS.
                 </p>
-                <Link className='btn btn-border-base' to='/about'>
+                <Link className='btn btn-border-base' to='https://apps.apple.com/lk/app/microimage-hcm/id1267702412'>
                   APP STORE <FaPlus />
                 </Link>
-                <Link className='btn btn-border-base mx-2' to='/about'>
-                  GOOGLE PLAY STORE <FaPlus />
+                <Link className='btn btn-border-base mx-2' to='https://play.google.com/store/apps/details?id=com.microimage.hcmv2'>
+                  GOOGLE PLAY<FaPlus />
                 </Link>
               </div>
             </div>

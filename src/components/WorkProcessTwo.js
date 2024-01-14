@@ -19,7 +19,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/6.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 01</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Employee Profile</h5>
                   <p className='content'>
                     MyHCM - System for seamless personnel updates
@@ -33,7 +33,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/5.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 02</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Employee Self Service</h5>
                   <p className='content'>
                     HR management with a secure and accessible portal.
@@ -47,7 +47,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/2.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 03</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>HR Analytics & Reports</h5>
                   <p className='content'>
                     Powerful analytics and real-time insights.
@@ -61,7 +61,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/10.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Learning Management</h5>
                   <p className='content'>
                     Drive effectiveness with customizable training programs.
@@ -75,7 +75,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/3.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 05</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Mobile App</h5>
                   <p className='content'>
                     Seamlessly switch devices for tasks of all kind.
@@ -89,7 +89,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/8.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Recruitment</h5>
                   <p className='content'>
                     User-friendly hierarchy viewer control panel for charts.
@@ -103,7 +103,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/7.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Time Management</h5>
                   <p className='content'>
                     User-friendly hierarchy viewer control panel for charts.
@@ -117,7 +117,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/4.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Organizational Charts</h5>
                   <p className='content'>
                     User-friendly hierarchy viewer control panel for charts.
@@ -131,7 +131,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/1.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Leave Absence Management</h5>
                   <p className='content'>
                     Elevate leave and absence management accuracy.
@@ -145,7 +145,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/9.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Performance Management</h5>
                   <p className='content'>
                     Control access to appraisals, ratings, contracts, and benefits.
@@ -156,10 +156,10 @@ const WorkProcessTwo = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/11.png' alt='img' />
+                  <img src='assets/img/icon/41.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Voice Enabled Mobile Services</h5>
                   <p className='content'>
                     User-friendly hierarchy viewer control panel for charts.
@@ -173,7 +173,7 @@ const WorkProcessTwo = () => {
                   <img src='assets/img/icon/12.png' alt='img' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
+                  <p className='process-count'>Module</p>
                   <h5 className='mb-3'>Payroll</h5>
                   <p className='content'>
                     Get acquainted with our payroll software’s exceptional features.

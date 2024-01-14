@@ -60,25 +60,18 @@ const HomeTwo = () => {
 
       {/* Service Area Five */}
       <ServiceAreaFive />
-
       {/* Brand Area One */}
       <BrandAreaOne />
-
       {/* Testimonial Two */}
       <TestimonialTwo />
-
-      {/* WorkProcess Three */}
-      {/* <WorkProcessThree /> */}
-
-      {/* Case Study Area One */}
-      {/* <CaseStudyAreaOne /> */}
-
       {/* Career Area One */}
       <CareerAreaOne />
-
+      {/* WorkProcess Three */}
+      {/* <WorkProcessThree /> */}
+      {/* Case Study Area One */}
+      {/* <CaseStudyAreaOne /> */}
       {/* Team Area One */}
       {/* <TeamAreaOne /> */}
-
       {/* Pricing Area Two */}
       {/* <PricingAreaTwo /> */}
 
@@ -93,9 +86,6 @@ const HomeTwo = () => {
 
       {/* Blog Area Two */}
       <BlogAreaTwo />
-
-      {/* Brand Area One */}
-      <BrandAreaOne />
 
       {/* Footer Two */}
       <FooterOne />

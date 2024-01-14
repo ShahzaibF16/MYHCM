@@ -29,20 +29,20 @@ const AboutAreaTwo = () => {
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the
+                        <FaCheckCircle /> Order Around Through Dialogue
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Integration of Voice Assistants
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the
+                        <FaCheckCircle /> Multiple Tasks are Performed
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Command Through Speech
                       </li>
                     </ul>
                   </div>
@@ -52,7 +52,7 @@ const AboutAreaTwo = () => {
                   Asia and South Asia markets to be integerated with
                   virtual assistants; Siri&trade; and Google Assistant&trade;.
                 </p>
-                <Link className='btn btn-border-base' to='/about'>
+                <Link className='btn btn-border-base' to='#'>
                   Discover More <FaPlus />
                 </Link>
               </div>

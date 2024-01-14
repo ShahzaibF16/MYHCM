@@ -48,8 +48,7 @@ const FooterOne = () => {
                 </div>
                 <div className='details'>
                   <p>
-                    MyHCM is a premier digital HR solution in Pakistan which automates all your HR activities and processes, creating a completely paperless environment.
-                  </p>
+                    MyHCM: Leading digital HR solution in Pakistan, automating HR activities for a paperless environment. Focus on people, not processes, for efficient team management and enhanced productivity.                  </p>
                   <p className='mt-3'>
                     <FaPhoneAlt /> +92 308 3663053
                   </p>
@@ -73,12 +72,12 @@ const FooterOne = () => {
                       </a>
                     </li>
                     <li>
-                      <a href=''>
+                      <a href='#'>
                         <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='https://wa.me/+923083663053'>
                         <FaWhatsapp />
                       </a>
                     </li>
@@ -91,37 +90,37 @@ const FooterOne = () => {
                 <h4 className='widget-title'>Modules</h4>
                 <ul>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Payroll
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> HR Analytics
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Employee Profile{" "}
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Leave Management
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Recruitments
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Time Attendance
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Voice Enabled Feature
                     </Link>
                   </li>
@@ -133,37 +132,37 @@ const FooterOne = () => {
                 <h4 className='widget-title'>Company</h4>
                 <ul>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Home
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Team
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Blog{" "}
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Careers
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Contact Us
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Privacy Policy
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='#'>
                       <FaArrowRight /> Partners
                     </Link>
                   </li>
@@ -185,7 +184,7 @@ const FooterOne = () => {
                           <span>Head Office Karachi</span>
                         </div>
                         <h6 className='title mb-0' style={{ fontSize: "12px" }}>
-                          <Link to='/blog-details'>
+                          <Link to='#'>
                             Mariam Khan | 0326-8042833 | 1D-203, Sector 30, Korangi Industrial Area, Karachi.
                           </Link>
                         </h6>
@@ -203,7 +202,7 @@ const FooterOne = () => {
                           <span>Regional Office Lahore</span>
                         </div>
                         <h6 className='title mb-0' style={{ fontSize: "12px" }}>
-                          <Link to='/blog-details'>
+                          <Link to='#'>
                             Amama Riaz | 0332-0482536 | 1st Floor، NTC Building، 6 Shahrah Aiwan-e-Sanat-o-Tijarat, G.O.R. - I, Lahore, Punjab 54000
                           </Link>
                         </h6>
@@ -221,7 +220,7 @@ const FooterOne = () => {
                           <span>Regional Office Islamabad</span>
                         </div>
                         <h6 className='title mb-0' style={{ fontSize: "12px" }}>
-                          <Link to='/blog-details'>
+                          <Link to='#'>
                             Ahsan Amin | 0312-8706030 | A State Life Blg. 6، 60 Nazim-ud-din Rd, F 6/4 Blue Area, Islamabad, Islamabad Capital Territory, Pakistan
                           </Link>
                         </h6>

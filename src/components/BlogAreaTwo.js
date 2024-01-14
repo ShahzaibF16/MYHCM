@@ -11,7 +11,7 @@ const BlogAreaTwo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='section-title text-center'>
-                <h6 className='sub-title'>RECENT BLOG</h6>
+                <h6 className='sub-title'>RECENT BLOGS</h6>
                 <h2 className='title'>
                   Discover a World of Sustainable Alternatives
                 </h2>
@@ -26,17 +26,17 @@ const BlogAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <ul className='blog-meta'>
-                    <li className='date'>15 MAY</li>
+                    <li className='date'>01 JAN</li>
                     <li>
-                      <FaRegUser /> By Admin
+                      <FaRegUser /> By MyHCM Admin
                     </li>
                     <li>
-                      <FaRegFolderOpen /> Category
+                      <FaRegFolderOpen /> Business
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
-                      Transforming businesses, one pixel at a time
+                    <Link to='#'>
+                      The Future of HR: How Innovative Software is Shaping the Workplace
                     </Link>
                   </h5>
                   <Link className='read-more-text' to='/blog-details'>
@@ -48,21 +48,21 @@ const BlogAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list style-2'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/5.png' alt='img' />
+                  <img src='assets/img/blog/5.jpg' alt='img' />
                 </div>
                 <div className='details'>
                   <ul className='blog-meta'>
-                    <li className='date'>15 MAY</li>
+                    <li className='date'>07 JAN</li>
                     <li>
-                      <FaRegUser /> By Admin
+                      <FaRegUser /> MyHCM Admin
                     </li>
                     <li>
-                      <FaRegFolderOpen /> Category
+                      <FaRegFolderOpen /> Software
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
-                      The Importance of a Strong Digital for Strategy
+                    <Link to='#'>
+                      Choosing the Right HR Software: A Comprehensive Guide
                     </Link>
                   </h5>
                   <Link className='read-more-text' to='/blog-details'>
@@ -78,17 +78,17 @@ const BlogAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <ul className='blog-meta'>
-                    <li className='date'>15 MAY</li>
+                    <li className='date'>15 JAN</li>
                     <li>
-                      <FaRegUser /> By Admin
+                      <FaRegUser /> MyHCM Admin
                     </li>
                     <li>
-                      <FaRegFolderOpen /> Category
+                      <FaRegFolderOpen /> Cloud
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
-                      Creating Engaging Content: A Guide for Digital
+                    <Link to='#'>
+                      Overcoming HR Challenges with Cloud-Based Solutions
                     </Link>
                   </h5>
                   <Link className='read-more-text' to='/blog-details'>

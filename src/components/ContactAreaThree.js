@@ -13,7 +13,7 @@ const ContactAreaThree = () => {
               data-aos-delay='200'
               data-aos-duration='1500'
             >
-              <img className='w-100' src='assets/img/about/12.png' alt='img' />
+              <img className='w-100' src='assets/img/about/geofenced.png' alt='img' />
             </div>
             <div
               className='col-lg-4'
@@ -31,10 +31,10 @@ const ContactAreaThree = () => {
                     <img src='assets/img/icon/26.png' alt='img' />
                   </div>
                   <div className='media-body'>
-                    <h5>Felis in quam volutpat </h5>
+                    <h5>Mark Attendance </h5>
                     <p className='mb-0'>
-                      Lorem ipsum dolor consectetur notte massa sapien samet.
-                      Aucibus sed sem non, mattis commodo nisi.
+                      Mark your attendance with MyHCM's geofenced
+                      and geotagged attendance on your mobile device.
                     </p>
                   </div>
                 </div>
@@ -43,10 +43,10 @@ const ContactAreaThree = () => {
                     <img src='assets/img/icon/26.png' alt='img' />
                   </div>
                   <div className='media-body'>
-                    <h5>Sed mi et in neque mattis</h5>
+                    <h5>Current Location</h5>
                     <p className='mb-0'>
-                      Lorem ipsum dolor consectetur notte massa sapien samet.
-                      Aucibus sed sem non, mattis commodo nisi.
+                      Open mobile app, go to time tile, map will
+                      pop up signifying your current location.
                     </p>
                   </div>
                 </div>
@@ -55,10 +55,10 @@ const ContactAreaThree = () => {
                     <img src='assets/img/icon/26.png' alt='img' />
                   </div>
                   <div className='media-body'>
-                    <h5>Commodo adipiscing </h5>
+                    <h5>Check In/Out</h5>
                     <p className='mb-0'>
-                      Lorem ipsum dolor consectetur notte massa sapien samet.
-                      Aucibus sed sem non, mattis commodo nisi.
+                      Just check in / out and thats it, your
+                      attendance is marked.
                     </p>
                   </div>
                 </div>

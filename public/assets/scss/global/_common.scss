@@ -844,16 +844,19 @@
   background: #f9f9f9;
 }
 .bg-margenta{
-  background: #F77F11;
+  background: #f77f11;
+}
+.bg-margentalight{
+  background: #f7801128;
 }
 .bg-gradient-gray {
-  background-image: linear-gradient(#f8f9fc, #d9e5ff);
+  background-image: linear-gradient(#fdfdfd, #f7801132);
 }
 .bg-black {
   background: var(--heading-color);
 }
 .bg-light {
-  background: #f7fafc;
+  background: #fdfdfd;
 }
 .bg-light-pink {
   background: #fff9f5;
