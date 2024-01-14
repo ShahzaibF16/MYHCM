@@ -21,7 +21,7 @@ const BannerTwo = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  Designing for the future
+                  Your HR Transformation Partner
                 </h6>
                 <h2
                   className='title '
@@ -40,8 +40,7 @@ const BannerTwo = () => {
                 >
                   Gone are those days of using attendance machines.
                   Mark your attendance with MyHCM's goe-fenced and
-                  geo-tagged attendance on your mobile device. All
-                  you need to do is open your mobile app.
+                  geo-tagged attendance on your mobile device.
                 </p>
                 <Link
                   className='btn btn-border-base '

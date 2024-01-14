@@ -69,7 +69,7 @@ const AboutAreaThree = () => {
                 <Link className='btn btn-border-base' to='/about'>
                   APP STORE <FaPlus />
                 </Link>
-                <Link className='btn btn-border-base' to='/about'>
+                <Link className='btn btn-border-base mx-2' to='/about'>
                   GOOGLE PLAY STORE <FaPlus />
                 </Link>
               </div>
@@ -95,6 +95,15 @@ const AboutAreaThree = () => {
                 </div>
                 <div className='thumb'>
                   <img src='assets/img/client/w6.png' alt='img' />
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/w7.png' alt='img' />
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/w8.png' alt='img' />
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/w9.png' alt='img' />
                 </div>
               </Marquee>
             </div>

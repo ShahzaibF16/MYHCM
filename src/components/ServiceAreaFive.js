@@ -10,9 +10,9 @@ const ServiceAreaFive = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
               <div className='section-title text-center'>
-                <h6 className='sub-title-sky-blue'>Our Best Service</h6>
+                <h6 className='sub-title-sky-blue'>Our Service Domains</h6>
                 <h2 className='title'>
-                  Unlocking The Potential Of Data With Ai
+                  We Cover All Market Verticals
                 </h2>
               </div>
             </div>
@@ -27,7 +27,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>AI Consult</Link>
+                    <Link to='/service-details'>Automobiles</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -43,7 +43,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Data Mind</Link>
+                    <Link to='/service-details'>Real Estate</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -59,7 +59,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>IntelliSense</Link>
+                    <Link to='/service-details'>Telco</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -82,7 +82,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Neural Solutions</Link>
+                    <Link to='/service-details'>Technology</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -98,7 +98,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Wise Logic</Link>
+                    <Link to='/service-details'>Education</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -114,7 +114,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Smart Vision</Link>
+                    <Link to='/service-details'>Banking</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin

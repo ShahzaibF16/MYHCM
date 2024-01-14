@@ -40,18 +40,20 @@ const HomeTwo = () => {
       {/* Contact Area One */}
       <ContactAreaOne />
 
+      {/* Work Process Two */}
+      <WorkProcessTwo />
+
+      {/* Contact Area Three */}
+      <ContactAreaThree />
+
       {/* About Area Two */}
       <AboutAreaTwo />
 
       {/* About Area Three */}
       <AboutAreaThree />
-     
 
       {/* Service Area One */}
-      <ServiceAreaOne />
-
-       {/* Brand Area One */}
-       <BrandAreaOne />
+      {/* <ServiceAreaOne /> */}
 
       {/* About Area Two */}
       {/* <ServiceAreaTwo /> */}
@@ -59,8 +61,8 @@ const HomeTwo = () => {
       {/* Service Area Five */}
       <ServiceAreaFive />
 
-      {/* Contact Area Three */}
-      <ContactAreaThree />
+      {/* Brand Area One */}
+      <BrandAreaOne />
 
       {/* Testimonial Two */}
       <TestimonialTwo />
@@ -86,11 +88,8 @@ const HomeTwo = () => {
       {/* Contact Area Two */}
       {/* <ContactAreaTwo /> */}
 
-      {/* Work Process Two */}
-      <WorkProcessTwo />
-
       {/* Contact Area Four */}
-      <ContactAreaFour />
+      {/* <ContactAreaFour /> */}
 
       {/* Blog Area Two */}
       <BlogAreaTwo />

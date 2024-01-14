@@ -33,13 +33,12 @@ const ContactAreaOne = () => {
                 data-aos-duration='1500'
               >
                 <div className='section-title mb-0'>
-                  <h6 className='sub-title'>GET IN TOUCH</h6>
+                  <h6 className='sub-title'>REQUEST FREE DEMO</h6>
                   <h2 className='title'>
-                    Bringing Your <span>Vision</span> To Life
+                    Not Sure About <span>Automating</span> Your HRM?
                   </h2>
                   <p className='content'>
-                    For your car we will do everything advice design in us
-                    repairs and maintenance. We are the some preferred.
+                    Complete the form and will schedule a demo for you to decide for yourself.
                   </p>
                   <form className='mt-4'>
                     <div className='row'>
@@ -70,10 +69,10 @@ const ContactAreaOne = () => {
                       </div>
                       <div className='col-12'>
                         <a
-                          className='btn btn-black mt-0 w-100 border-radius-5'
+                          className='btn btn-border-base mt-0 w-100'
                           href='#'
                         >
-                          Submit now
+                          Get a Free Demo
                         </a>
                       </div>
                     </div>
