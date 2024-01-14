@@ -18,7 +18,7 @@ const AboutAreaTwo = () => {
               <div className='about-thumb-inner'>
                 <img
                   className='main-img'
-                  src='assets/img/about/10.png'
+                  src='assets/img/about/aboutt.png'
                   alt='img'
                 />
               </div>
@@ -30,13 +30,14 @@ const AboutAreaTwo = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mb-0'>
-                <h6 className='sub-title'>ABOUT US</h6>
+                <h6 className='sub-title'>ABOUT MYHCM</h6>
                 <h2 className='title'>
-                  Empowering businesses with SaaS technology
+                  Empowering you with Voice enable Feature
                 </h2>
                 <p className='content mb-4'>
-                  You can access SaaS applications through a web browser or
-                  mobile app, as long as you have an internet connection.
+                  Our app, which is available over android and iOS devices,
+                  will allow employees to carry out a range of HR-Related 
+                  activities using voice-enabled assistants.
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -61,10 +62,9 @@ const AboutAreaTwo = () => {
                   </div>
                 </div>
                 <p className='content'>
-                  SaaS providers typically invest heavily in security measures
-                  to protect customer data, such as encryption and multi-factor
-                  authentication. However, it is important to research and
-                  choose a reputable provider and also to ensure that
+                  The app is the first of its kind for many Southeast
+                  Asia and South Asia markets to be integerated with
+                  virtual assistants; Siri&trade; and Google Assistant&trade;.
                 </p>
                 <Link className='btn btn-border-base' to='/about'>
                   Discover More <FaPlus />

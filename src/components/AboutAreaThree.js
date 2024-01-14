@@ -18,7 +18,7 @@ const AboutAreaThree = () => {
               <div className='about-thumb-inner mb-4 mb-lg-0'>
                 <img
                   className='main-img'
-                  src='assets/img/about/11.png'
+                  src='assets/img/about/aboutt.png'
                   alt='img'
                 />
               </div>
@@ -32,7 +32,7 @@ const AboutAreaThree = () => {
               <div className='section-title mb-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  Advancing <span>Beyond</span> Your Expectations
+                  Get The<span>App</span> Playstore & iOS
                 </h2>
                 <p className='content mb-4'>
                   You can access SaaS applications through a web browser or
@@ -67,7 +67,10 @@ const AboutAreaThree = () => {
                   choose a reputable provider and also to ensure that
                 </p>
                 <Link className='btn btn-border-base' to='/about'>
-                  Discover More <FaPlus />
+                  APP STORE <FaPlus />
+                </Link>
+                <Link className='btn btn-border-base' to='/about'>
+                  GOOGLE PLAY STORE <FaPlus />
                 </Link>
               </div>
             </div>
@@ -76,22 +79,22 @@ const AboutAreaThree = () => {
             <div className='client-slider'>
               <Marquee gradient={false}>
                 <div className='thumb'>
-                  <img src='assets/img/client/1.svg' alt='img' />
+                  <img src='assets/img/client/w1.png' alt='img' />
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/2.svg' alt='img' />
+                  <img src='assets/img/client/w2.png' alt='img' />
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/3.svg' alt='img' />
+                  <img src='assets/img/client/w3.png' alt='img' />
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/4.svg' alt='img' />
+                  <img src='assets/img/client/w4.png' alt='img' />
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/5.svg' alt='img' />
+                  <img src='assets/img/client/w5.png' alt='img' />
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/6.svg' alt='img' />
+                  <img src='assets/img/client/w6.png' alt='img' />
                 </div>
               </Marquee>
             </div>

@@ -29,8 +29,8 @@ const BannerTwo = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                  {" "}
-                  MyHCM World's Leading <span>HR</span> Software
+                  {"MyHCM - "}
+                  World's Leading <span>HR</span> Software
                 </h2>
                 <p
                   className='content pe-xl-5 '
@@ -39,7 +39,7 @@ const BannerTwo = () => {
                   data-aos-duration='1500'
                 >
                   Gone are those days of using attendance machines.
-                  Mark your attendance with MyHCM's goe-fenced and 
+                  Mark your attendance with MyHCM's goe-fenced and
                   geo-tagged attendance on your mobile device. All
                   you need to do is open your mobile app.
                 </p>
@@ -62,7 +62,7 @@ const BannerTwo = () => {
                     onClick={() => setOpen(true)}
                     className='video-play-btn-hover'
                   >
-                    <img src='assets/img/video.svg' alt='img' />{" "}
+                    <img src='assets/img/req.png' alt='img' />{" "}
                     <h6 className='d-inline-block'>Request a free Demo</h6>
                   </span>
 

@@ -87,6 +87,15 @@
     background: var(--main-color);
   }
 }
+.btn-orange {
+  color: var(--main-white) !important;
+  background: var(--main-color);
+  &:hover,
+  &:focus {
+    color: #fff !important;
+    background: var(--main-color);
+  }
+}
 .btn-black {
   color: #fff !important;
   background: var(--heading-color);
@@ -833,6 +842,9 @@
 }
 .bg-sky {
   background: #f9f9f9;
+}
+.bg-margenta{
+  background: #F77F11;
 }
 .bg-gradient-gray {
   background-image: linear-gradient(#f8f9fc, #d9e5ff);

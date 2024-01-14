@@ -5,9 +5,12 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
+  FaMapMarkedAlt,
   FaPhoneAlt,
   FaTwitter,
   FaYoutube,
+  FaLinkedinIn,
+  FaWhatsapp
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -15,7 +18,7 @@ const FooterOne = () => {
   return (
     <>
       {/* ================== Footer One Start ==================*/}
-      <footer className='footer-area bg-black bg-cover'>
+      <footer className='footer-area bg-margenta bg-cover'>
         <div className='footer-subscribe'>
           <div className='container'>
             <div
@@ -28,7 +31,7 @@ const FooterOne = () => {
                 </div>
                 <div className='col-lg-6 align-self-center text-lg-end'>
                   <input type='text' placeholder='Your e-mail address' />
-                  <a className='btn btn-black border-radius-0' href='#'>
+                  <a className='btn btn-orange border-radius-0' href='#'>
                     Submit now
                   </a>
                 </div>
@@ -45,33 +48,38 @@ const FooterOne = () => {
                 </div>
                 <div className='details'>
                   <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
+                    Leap into the World of Digital HR
                   </p>
                   <p className='mt-3'>
-                    <FaPhoneAlt /> (+888) 123 456 765
+                    <FaPhoneAlt /> +92 308 3663053
                   </p>
                   <p className='mt-2'>
-                    <FaEnvelope /> (+888) 123 456 765
+                    <FaEnvelope />  info@myhcm.pk
                   </p>
                   <ul className='social-media'>
                     <li>
-                      <a href='#'>
+                      <a href='https://www.facebook.com/profile.php?id=61554595533346&mibextid=LQQJ4d '>
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='https://twitter.com/myhcmpk'>
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='https://www.instagram.com/myhc.m?igsh=MTZ1NnNmem5ycGV1eQ%3D%3D&utm_source=qr'>
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
+                      <a href=''>
+                        <FaLinkedinIn />
+                      </a>
+                    </li>
+                    <li>
                       <a href='#'>
-                        <FaYoutube />
+                        <FaWhatsapp />
                       </a>
                     </li>
                   </ul>
@@ -80,36 +88,41 @@ const FooterOne = () => {
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Our Service</h4>
+                <h4 className='widget-title'>Modules</h4>
                 <ul>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Ui Design
+                      <FaArrowRight /> Payroll
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Web design
+                      <FaArrowRight /> HR Analytics
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Digital marketing{" "}
+                      <FaArrowRight /> Employee Profile{" "}
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Video Editing
+                      <FaArrowRight /> Leave Management
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Pc Repairs
+                      <FaArrowRight /> Recruitments
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Web Development
+                      <FaArrowRight /> Time Attendance
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Voice Enabled Feature
                     </Link>
                   </li>
                 </ul>
@@ -117,36 +130,41 @@ const FooterOne = () => {
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Pay links</h4>
+                <h4 className='widget-title'>Company</h4>
                 <ul>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Credit industrys
+                      <FaArrowRight /> Home
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Reasearch sector
+                      <FaArrowRight /> Team
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Finance Sector{" "}
+                      <FaArrowRight /> Blog{" "}
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Credit industrys
+                      <FaArrowRight /> Careers
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Reasearch sector
+                      <FaArrowRight /> Contact Us
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaArrowRight /> Finance Sector
+                      <FaArrowRight /> Privacy Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Partners
                     </Link>
                   </li>
                 </ul>
@@ -159,16 +177,16 @@ const FooterOne = () => {
                   <li>
                     <div className='media'>
                       <div className='media-left'>
-                        <img src='assets/img/widget/1.png' alt='blog' />
+                        <img src='assets/img/icon/15.png' alt='blog' />
                       </div>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
                           <FaCalendarAlt />
-                          <span>january 11, 2023</span>
+                          <span>Head Office Karachi</span>
                         </div>
-                        <h6 className='title mb-0'>
+                        <h6 className='title mb-0' style={{fontSize:"12px"}}>
                           <Link to='/blog-details'>
-                            Social Media For Promote Business.
+                            Mariam Khan | 0326-8042833 | 1D-203, Sector 30, Korangi Industrial Area, Karachi.
                           </Link>
                         </h6>
                       </div>
@@ -177,16 +195,34 @@ const FooterOne = () => {
                   <li>
                     <div className='media'>
                       <div className='media-left'>
-                        <img src='assets/img/widget/2.png' alt='blog' />
+                        <img src='assets/img/icon/15.png' alt='blog' />
                       </div>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
                           <FaCalendarAlt />
-                          <span>january 11, 2023</span>
+                          <span>Regional Office Lahore</span>
                         </div>
-                        <h6 className='title mb-0'>
+                        <h6 className='title mb-0' style={{fontSize:"12px"}}>
                           <Link to='/blog-details'>
-                            Marketing For Base market watch
+                            Amama Riaz | 0332-0482536 | 1st Floor، NTC Building، 6 Shahrah Aiwan-e-Sanat-o-Tijarat, G.O.R. - I, Lahore, Punjab 54000
+                          </Link>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='media'>
+                      <div className='media-left'>
+                        <img src='assets/img/icon/15.png' alt='blog' />
+                      </div>
+                      <div className='media-body align-self-center'>
+                        <div className='post-info mb-2'>
+                          <FaCalendarAlt />
+                          <span>Regional Office Islamabad</span>
+                        </div>
+                        <h6 className='title mb-0' style={{fontSize:"12px"}}>
+                          <Link to='/blog-details'>
+                            Ahsan Amin | 0312-8706030 | A State Life Blg. 6، 60 Nazim-ud-din Rd, F 6/4 Blue Area, Islamabad, Islamabad Capital Territory, Pakistan
                           </Link>
                         </h6>
                       </div>
@@ -201,10 +237,10 @@ const FooterOne = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-6 align-self-center'>
-                <p>© Yoursitename 2023 | All Rights Reserved</p>
+                <p>© MyHCM 2024-25 | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='#'>Trams &amp; Condition</a>
+                <a href='#'>Terms &amp; Condition</a>
                 <a href='#'>Privacy Policy</a>
                 <a href='#'>Contact Us</a>
               </div>

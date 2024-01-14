@@ -4,6 +4,7 @@ import BannerTwo from "../components/BannerTwo";
 import BlogAreaTwo from "../components/BlogAreaTwo";
 import ContactAreaTwo from "../components/ContactAreaTwo";
 import CounterAreaTwo from "../components/CounterAreaTwo";
+import FooterOne from "../components/FooterOne";
 import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
 import PricingAreaTwo from "../components/PricingAreaTwo";
@@ -43,13 +44,14 @@ const HomeTwo = () => {
       <AboutAreaTwo />
 
       {/* About Area Three */}
-      {/* <AboutAreaThree /> */}
-      {/* Brand Area One */}
-      <BrandAreaOne />
-
+      <AboutAreaThree />
+     
 
       {/* Service Area One */}
       <ServiceAreaOne />
+
+       {/* Brand Area One */}
+       <BrandAreaOne />
 
       {/* About Area Two */}
       {/* <ServiceAreaTwo /> */}
@@ -64,19 +66,19 @@ const HomeTwo = () => {
       <TestimonialTwo />
 
       {/* WorkProcess Three */}
-      <WorkProcessThree />
+      {/* <WorkProcessThree /> */}
 
       {/* Case Study Area One */}
-      <CaseStudyAreaOne />
+      {/* <CaseStudyAreaOne /> */}
 
       {/* Career Area One */}
       <CareerAreaOne />
 
       {/* Team Area One */}
-      <TeamAreaOne />
+      {/* <TeamAreaOne /> */}
 
       {/* Pricing Area Two */}
-      <PricingAreaTwo />
+      {/* <PricingAreaTwo /> */}
 
       {/* Counter Area Two */}
       {/* <CounterAreaTwo /> */}
@@ -86,9 +88,6 @@ const HomeTwo = () => {
 
       {/* Work Process Two */}
       <WorkProcessTwo />
-
-      {/* Testimonial One */}
-      <TestimonialOne />
 
       {/* Contact Area Four */}
       <ContactAreaFour />
@@ -100,7 +99,8 @@ const HomeTwo = () => {
       <BrandAreaOne />
 
       {/* Footer Two */}
-      <FooterTwo />
+      <FooterOne />
+      {/* <FooterTwo /> */}
     </>
   );
 };

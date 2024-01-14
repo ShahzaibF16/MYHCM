@@ -20,10 +20,9 @@ const WorkProcessTwo = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 01</p>
-                  <h5 className='mb-3'>Software Research</h5>
+                  <h5 className='mb-3'>Employee Profile</h5>
                   <p className='content'>
-                    Research ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    MyHCM - System for seamless personnel updates
                   </p>
                 </div>
               </div>
@@ -35,10 +34,9 @@ const WorkProcessTwo = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 02</p>
-                  <h5 className='mb-3'>Create Programs</h5>
+                  <h5 className='mb-3'>Employee Self Service</h5>
                   <p className='content'>
-                    Create ipsum dolor sit consec tetur sed diam in the aliquam
-                    tempor
+                    HR management with a secure and accessible portal.
                   </p>
                 </div>
               </div>
@@ -50,10 +48,9 @@ const WorkProcessTwo = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 03</p>
-                  <h5 className='mb-3'>Develope Software</h5>
+                  <h5 className='mb-3'>HR Analytics & Reports</h5>
                   <p className='content'>
-                    Develope ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    Powerful analytics and real-time insights.
                   </p>
                 </div>
               </div>
@@ -65,14 +62,126 @@ const WorkProcessTwo = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 04</p>
-                  <h5 className='mb-3'>Shop software</h5>
+                  <h5 className='mb-3'>Learning Management</h5>
                   <p className='content'>
-                    Shop ipsum dolor sit consec tetur Malesuada sed diam in the
-                    aliquam tempor
+                    Drive effectiveness with customizable training programs.
                   </p>
                 </div>
               </div>
             </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 05</p>
+                  <h5 className='mb-3'>Mobile App</h5>
+                  <p className='content'>
+                    Seamlessly switch devices for tasks of all kind.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Recruitment</h5>
+                  <p className='content'>
+                    User-friendly hierarchy viewer control panel for charts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Time Management</h5>
+                  <p className='content'>
+                    User-friendly hierarchy viewer control panel for charts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Organizational Charts</h5>
+                  <p className='content'>
+                    User-friendly hierarchy viewer control panel for charts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Leave Absence Management</h5>
+                  <p className='content'>
+                    Elevate leave and absence management accuracy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Performance Management</h5>
+                  <p className='content'>
+                    Control access to appraisals, ratings, contracts, and benefits.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Voice Enabled Mobile Services</h5>
+                  <p className='content'>
+                    User-friendly hierarchy viewer control panel for charts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-3 col-md-6'>
+              <div className='single-work-process-inner'>
+                <div className='thumb mb-3'>
+                  <img src='assets/img/icon/12.svg' alt='img' />
+                </div>
+                <div className='details'>
+                  <p className='process-count'>Work 04</p>
+                  <h5 className='mb-3'>Payroll</h5>
+                  <p className='content'>
+                    Get acquainted with our payroll software’s exceptional features.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
