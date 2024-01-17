@@ -8,7 +8,7 @@ const AboutAreaThree = () => {
       {/* =============== About Area Three End ===============*/}
       <div className='about-area bg-gradient-gray pd-top-120'>
         <div className='container'>
-          <div className='row'>
+          <div className='row pb-4'>
             <div
               className='col-lg-6 '
               data-aos='fade-right'
@@ -65,16 +65,16 @@ const AboutAreaThree = () => {
                   Trusted By over 500 Customers Worldwide!
                   App is available on Android and iOS.
                 </p>
-                <Link className='btn btn-border-base' to='https://apps.apple.com/lk/app/microimage-hcm/id1267702412'>
-                  APP STORE <FaPlus />
+                <Link className='app_link' to='https://apps.apple.com/lk/app/microimage-hcm/id1267702412'>
+                  <img src="assets/img/about/appstore.png"/>
                 </Link>
-                <Link className='btn btn-border-base mx-2' to='https://play.google.com/store/apps/details?id=com.microimage.hcmv2'>
-                  GOOGLE PLAY<FaPlus />
+                <Link className='app_link m-2' to='https://play.google.com/store/apps/details?id=com.microimage.hcmv2'>
+                  <img src="assets/img/about/playstore.png"/>
                 </Link>
               </div>
             </div>
           </div>
-          <div className='bg-base client-border-radius p-xl-5 p-3 mt-5'>
+          {/* <div className='bg-base client-border-radius p-xl-5 p-3 mt-5'>
             <div className='client-slider'>
               <Marquee gradient={false}>
                 <div className='thumb'>
@@ -106,7 +106,7 @@ const AboutAreaThree = () => {
                 </div>
               </Marquee>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

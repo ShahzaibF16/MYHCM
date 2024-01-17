@@ -49,8 +49,12 @@ const HomeTwo = () => {
       {/* About Area Two */}
       <AboutAreaTwo />
 
+      {/* Brand Area One */}
+      <BrandAreaOne />
+      
       {/* About Area Three */}
       <AboutAreaThree />
+      
 
       {/* Service Area One */}
       {/* <ServiceAreaOne /> */}
@@ -60,8 +64,7 @@ const HomeTwo = () => {
 
       {/* Service Area Five */}
       <ServiceAreaFive />
-      {/* Brand Area One */}
-      <BrandAreaOne />
+      
       {/* Testimonial Two */}
       <TestimonialTwo />
       {/* Career Area One */}

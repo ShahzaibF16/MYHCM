@@ -4,6 +4,16 @@ const BrandAreaOne = () => {
   return (
     <div className='about-area bg-light pt-5 pb-5'>
       <div className='container'>
+        <div className='row justify-content-center mb-4'>
+          <div className='col-xl-7 col-lg-9'>
+            <div className='section-title text-center'>
+              <h6 className='sub-title'>OUR CLIENTS</h6>
+              <h2 className='title'>
+                Embrace The Future<span> Of Work</span>  With Our Valued Clients.
+              </h2>
+            </div>
+          </div>
+        </div>
         <div className='client-slider'>
           <Marquee gradient={false}>
             <div className='thumb'>

@@ -92,6 +92,9 @@ const NavbarTwo = () => {
               <li className=''>
                 <Link to='/'>Home</Link>
               </li>
+              <li className=''>
+                <Link to='/'>Why MyHCM</Link>
+              </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Modules</a>
                 <ul className='sub-menu'>
@@ -139,14 +142,11 @@ const NavbarTwo = () => {
               <li>
                 <Link to='#'>Blog</Link>
               </li>
-              <li>
-                <Link to='#'>Careers</Link>
-              </li>
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
             <Link className='btn btn-border-base' to='/contact'>
-              Request Demo <FaPlus />
+              Contact Us <FaPlus />
             </Link>
           </div>
         </div>

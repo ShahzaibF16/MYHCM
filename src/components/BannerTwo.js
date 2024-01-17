@@ -21,7 +21,7 @@ const BannerTwo = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  Your HR Transformation Partner
+                  Your Leap Into The World of Digital HR
                 </h6>
                 <h2
                   className='title '
@@ -29,8 +29,8 @@ const BannerTwo = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                  {"MyHCM - "}
-                  World's Leading <span>HR</span> Software
+                  {""}
+                  Revolutionizing <span>Workforce</span>
                 </h2>
                 <p
                   className='content pe-xl-5 '
@@ -38,9 +38,8 @@ const BannerTwo = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                  Gone are those days of using attendance machines.
-                  Mark your attendance with MyHCM's goe-fenced and
-                  geo-tagged attendance on your mobile device.
+                  Embrace the future with our Modern, Agile, and Scalable
+                  HR software - powered by Microsoft Azure
                 </p>
                 <Link
                   className='btn btn-border-base '
@@ -57,13 +56,13 @@ const BannerTwo = () => {
                   data-aos-delay='350'
                   data-aos-duration='1500'
                 ><Link to='/contact'>
-                  <span
-                    // onClick={() => setOpen(true)}
-                    className='video-play-btn-hover'
-                  >
-                    <img src='assets/img/req.png' alt='img' />{" "}
-                    <h6 className='d-inline-block'>Request a free Demo</h6>
-                  </span>
+                    <span
+                      // onClick={() => setOpen(true)}
+                      className='video-play-btn-hover'
+                    >
+                      <img src='assets/img/req.png' alt='img' />{" "}
+                      <h6 className='d-inline-block'>Request a free Demo</h6>
+                    </span>
                   </Link >
                   <div></div>
                 </div>

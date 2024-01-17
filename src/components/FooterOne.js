@@ -48,7 +48,9 @@ const FooterOne = () => {
                 </div>
                 <div className='details'>
                   <p>
-                    MyHCM: Leading digital HR solution in Pakistan, automating HR activities for a paperless environment. Focus on people, not processes, for efficient team management and enhanced productivity.                  </p>
+                    MyHCM: Leading digital HR solution in Pakistan, automating
+                    HR activities for a paperless environment.
+                  </p>
                   <p className='mt-3'>
                     <FaPhoneAlt /> +92 308 3663053
                   </p>

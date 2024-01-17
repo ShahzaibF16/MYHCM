@@ -12,10 +12,10 @@ const ContactMain = () => {
     // Please See Documentation for more information
     emailjs
       .sendForm(
-        "service_yipk4xg", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
+        "service_f6rbgeo", //YOUR_SERVICE_ID
+        "template_w91oxvd", //YOUR_TEMPLATE_ID
         form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
+        "oNZZAG-q3Fu1rPRGZ" //YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -29,7 +29,7 @@ const ContactMain = () => {
         },
         (error) => {
           if (error.text !== "OK") {
-            toast.success("Massage Not Sent!");
+            toast.success("Message Not Sent!");
           }
         }
       );
@@ -69,7 +69,7 @@ const ContactMain = () => {
               <div className='section-title mb-0 mt-5 mt-lg-0'>
                 <h6 className='sub-title'>GET IN TOUCH</h6>
                 <h2 className='title'>
-                  Request Your<span>Free</span> Demo Now!
+                  Request Your<span> Free</span> Demo Now!
                 </h2>
                 <p className='content'>
                   Ready to experience the MyHCM's difference? Fill out the form
@@ -81,39 +81,39 @@ const ContactMain = () => {
                   <div className='row'>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
-                        <input type='text' placeholder='First Name' />
+                        <input type='text' placeholder='Name Here' name="user_name" required/>
                       </div>
                     </div>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
-                        <input type='text' placeholder='Last Name' />
+                        <input type='email' placeholder='Email Here' name="user_email" required/>
                       </div>
                     </div>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
-                        <input type='email' placeholder='Email Here' />
+                        <input type='phone' placeholder='Phone' name="user_phone"/>
                       </div>
                     </div>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
-                        <input type='phone' placeholder='Phone' />
+                        <input type='text' placeholder='Job Title/Designation' name="user_job"/>
                       </div>
                     </div>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
-                        <input type='text' placeholder='City' />
+                        <input type='text' placeholder='Company Name' name="user_company"/>
                       </div>
                     </div>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
-                        <input type='text' placeholder='Company' />
+                        <input type='text' placeholder='Industry' name="user_industry"/>
                       </div>
                     </div>
-                    <div className='col-lg-12'>
+                    {/* <div className='col-lg-12'>
                       <div className='single-input-inner style-border'>
                         <textarea placeholder='Your Queries' defaultValue={""} />
                       </div>
-                    </div>
+                    </div> */}
                     <div className='col-12'>
                       <button type="submit" className='btn btn-border-gray mt-0' href='#'>
                         Get Free Demo <FaPlus />
@@ -139,8 +139,9 @@ const ContactMain = () => {
                 <div className='media-body'>
                   <h5>Call for Help</h5>
                   <h6>+92 308 3663053</h6>
-                  <h6>+92 332 0482536</h6>
                   <h6>+92 326 8042833</h6>
+                  <h6>+92 332 0482536</h6>
+                  <h6>+92 312 8706030</h6>
                 </div>
               </div>
             </div>
@@ -151,9 +152,10 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Email Us</h5>
-                  <h6>mariam@myhcm.pk</h6>
                   <h6>harissaeed@myhcm.pk</h6>
+                  <h6>mariam@myhcm.pk</h6>
                   <h6>amama@myhcm.pk</h6>
+                  <h6>ahsan@myhcm.pk</h6>
                 </div>
               </div>
             </div>
