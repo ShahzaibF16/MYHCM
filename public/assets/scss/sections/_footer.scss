@@ -3,7 +3,7 @@
 ---------------------------------------------------*/
 .footer-area {
   position: relative;
-  margin-top: 90px;
+  // margin-top: 90px;
   &:after {
     content: "";
     position: absolute;
@@ -35,7 +35,7 @@
         margin-bottom: 0;
         color: #fff;
         svg {
-          color: var(--main-color2);
+          color: var(--main-color);
           margin-right: 10px;
         }
         + p {
@@ -93,7 +93,7 @@
         position: relative;
         svg {
           margin-right: 8px;
-          color: #333333;
+          color: #FE8C21;
           transition: 0.4s;
         }
         &:hover {

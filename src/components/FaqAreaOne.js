@@ -38,7 +38,7 @@ const FaqAreaOne = () => {
               <div className='section-title mb-0 mt-4 mt-lg-0'>
                 <h6 className='sub-title'>SOME FAQ'S</h6>
                 <h2 className='title'>
-                  Creating <span>Digital</span> Masterpieces
+                  Why <span>MyHCM</span>
                 </h2>
                 <p className='content'>
                   It is a long established fact that a reader will be distr
@@ -60,7 +60,7 @@ const FaqAreaOne = () => {
                       aria-expanded='true'
                       aria-controls='collapseOne'
                     >
-                      What services do you offer?
+                      Empowering Global Success
                     </button>
                   </h2>
                   <div
@@ -70,9 +70,7 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      We're not just a team; we're your global ally in HR & Payroll solutions.
                     </div>
                   </div>
                 </div>
@@ -86,7 +84,7 @@ const FaqAreaOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseTwo'
                     >
-                      How long does it take for you to complete a project?
+                      Revolutionizing Local Success?
                     </button>
                   </h2>
                   <div
@@ -96,9 +94,7 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      At the heart of MYHCM, we're rewriting the narrative on how we pay, manage, and nurture talent at the local level.
                     </div>
                   </div>
                 </div>
@@ -112,7 +108,7 @@ const FaqAreaOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseThree'
                     >
-                      How much does it cost to work with your agency?
+                      Providing Solutions
                     </button>
                   </h2>
                   <div
@@ -122,9 +118,7 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      Our solutions go beyond borders, catering to the unique needs of every locale. With MYHCM, embrace a new era where localized excellence meets global innovation.
                     </div>
                   </div>
                 </div>

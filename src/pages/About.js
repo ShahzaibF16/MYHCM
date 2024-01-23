@@ -7,7 +7,7 @@ import FaqAreaOne from "../components/FaqAreaOne";
 import FooterOne from "../components/FooterOne";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
+import WorkProcessFour from "../components/WorkProcessFour";
 
 const About = () => {
   return (
@@ -16,13 +16,16 @@ const About = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"About Us"} />
+      <Breadcrumb title={"Why MyHCM"} />
 
       {/* About Area One */}
-      <AboutAreaOne />
+      {/* <AboutAreaOne /> */}
 
       {/* FAQ Area One */}
       <FaqAreaOne />
+
+      {/* Work Process One */}
+      <WorkProcessFour />
 
       {/* Team Area One */}
       <TeamAreaOne />
@@ -31,10 +34,7 @@ const About = () => {
       <CounterAreaOne />
 
       {/* Contact Area One */}
-      <ContactAreaOne />
-
-      {/* Work Process One */}
-      <WorkProcessOne />
+      <ContactAreaOne />      
 
       {/* Footer One */}
       <FooterOne />

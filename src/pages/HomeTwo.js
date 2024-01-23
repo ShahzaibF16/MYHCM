@@ -1,18 +1,22 @@
 import React from "react";
+import NavBar from "../components/NavBar";
 import AboutAreaTwo from "../components/AboutAreaTwo";
+import AboutAreaOne from "../components/AboutAreaOne";
+import AboutAreaSix from "../components/AboutAreaSix";
 import BannerTwo from "../components/BannerTwo";
+import BannerThree from "../components/BannerThree";
 import BlogAreaTwo from "../components/BlogAreaTwo";
 import ContactAreaTwo from "../components/ContactAreaTwo";
-import CounterAreaTwo from "../components/CounterAreaTwo";
+import CaseStudyAreaTwo from "../components/CaseStudyAreaTwo";
+import CounterAreaThree from "../components/CounterAreaThree";
 import FooterOne from "../components/FooterOne";
 import FooterTwo from "../components/FooterTwo";
-import NavbarTwo from "../components/NavbarTwo";
 import PricingAreaTwo from "../components/PricingAreaTwo";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
 import TestimonialOne from "../components/TestimonialOne";
 import WorkProcessTwo from "../components/WorkProcessTwo";
 import ContactAreaOne from "../components/ContactAreaOne";
-import CounterAreaOne from "../components/CounterAreaOne";
+import CounterAreaFour from "../components/CounterAreaFour";
 import TeamAreaOne from "../components/TeamAreaOne";
 import CaseStudyAreaOne from "../components/CaseStudyAreaOne";
 import ServiceAreaOne from "../components/ServiceAreaOne";
@@ -29,16 +33,19 @@ const HomeTwo = () => {
   return (
     <>
       {/* Navigation Bar Two*/}
-      <NavbarTwo />
+      {/* <NavbarTwo /> */}
+      <NavBar />
 
       {/* Banner Two */}
-      <BannerTwo />
+      {/* <BannerTwo /> */}
+      <BannerThree/>
 
       {/* Counter Area One */}
-      <CounterAreaOne />
+      <CounterAreaThree />
+      {/* <CounterAreaFour /> */}
 
       {/* Contact Area One */}
-      <ContactAreaOne />
+      {/* <ContactAreaOne /> */}
 
       {/* Work Process Two */}
       <WorkProcessTwo/>
@@ -49,8 +56,8 @@ const HomeTwo = () => {
       {/* About Area Two */}
       <AboutAreaTwo />
 
-      {/* Brand Area One */}
-      <BrandAreaOne />
+      {/* About Area Two */}
+      <AboutAreaOne />
       
       {/* About Area Three */}
       <AboutAreaThree />
@@ -87,8 +94,17 @@ const HomeTwo = () => {
       {/* Contact Area Four */}
       {/* <ContactAreaFour /> */}
 
+      {/* Case Study Area Two */}
+      <CaseStudyAreaTwo />
+
+      {/* About Area Six */}
+      <AboutAreaSix />
+
       {/* Blog Area Two */}
       <BlogAreaTwo />
+
+      {/* Brand Area One */}
+      <BrandAreaOne />
 
       {/* Footer Two */}
       <FooterOne />

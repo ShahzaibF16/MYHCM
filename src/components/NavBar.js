@@ -90,77 +90,68 @@ const NavBar = () => {
             id='itech_main_menu'
           >
             <ul className='navbar-nav menu-open text-lg-end'>
-              <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/'>Home 01</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-2'>Home 02</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-3'>Home 03</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-4'>Home 04</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-5'>Home 05</Link>
-                  </li>
-                </ul>
+              <li>
+                <Link to='/'>Home </Link>
+              </li>
+              <li>
+                <Link to='#'>Why MyHCM</Link>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Service</a>
+                <a href='#'>Modules</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/service'>Service</Link>
+                    <Link to='#'>Employee Profile</Link>
                   </li>
                   <li>
-                    <Link to='/service-details'>Service Single</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/about'>About Us</Link>
+                    <Link to='#'>Employee Self Service</Link>
                   </li>
                   <li>
-                    <Link to='/team'>Team</Link>
+                    <Link to='#'>HR Analytics & Reports</Link>
                   </li>
                   <li>
-                    <Link to='/team-details'>Team Details</Link>
+                    <Link to='#'>Learning Management</Link>
                   </li>
                   <li>
-                    <Link to='/case-study-details'>Case Study Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/blog'>Blog</Link>
+                    <Link to='#'>Mobile App</Link>
                   </li>
                   <li>
-                    <Link to='/blog-details'>Blog Details</Link>
+                    <Link to='#'>Recruitment</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Time Management</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Organizational Charts</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Leave Absence Management</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Performance Management</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Payroll</Link>
+                  </li>
+                  <li>
+                    <Link to='#'>Voice Enabled Mobile Services</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to='/contact'>Contact Us</Link>
+                <Link to='#'>Blog</Link>
+              </li>
+              <li>
+                <Link to='/team'>Team</Link>
               </li>
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
-            <a className='navbar-phone' href='tel:'>
+            <a className='navbar-phone' href='tel:+923083663053'>
               <span className='icon'>
-                <img src='assets/img/icon/1.png' alt='img' />
+                <img src='assets/img/icon/phone.png' alt='img' />
               </span>
               <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
+              <h5>(+92) 308-3663053</h5>
             </a>
           </div>
         </div>

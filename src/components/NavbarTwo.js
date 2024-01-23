@@ -147,7 +147,7 @@ const NavbarTwo = () => {
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
             <Link className='btn btn-border-base' to='/contact'>
               Contact Us <FaPlus />
-            </Link>
+            </Link> 
           </div>
         </div>
       </nav>

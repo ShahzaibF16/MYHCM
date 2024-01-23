@@ -20,7 +20,7 @@ const WorkProcessOne = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 01</p>
-                  <h5 className='mb-3'>Software Research</h5>
+                  <h5 className='mb-3'>Securing Your Trust</h5>
                   <p className='content'>
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor

@@ -5,7 +5,7 @@ const CounterAreaThree = () => {
   return (
     <>
       {/*================= counter area start {/*=================*/}
-      <div className='counter-area bg-base pd-top-110 pd-bottom-90'>
+      <div className='counter-area bg-base pd-top-100 pd-bottom-60'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-3 col-md-6'>
@@ -18,13 +18,13 @@ const CounterAreaThree = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={200} /> +
+                          <CountUp delay={0} start={0} end={40} /> K+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Team member</p>
+                <p className='text-white'>Users</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -37,13 +37,13 @@ const CounterAreaThree = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={25} /> K+
+                          <CountUp delay={0} start={0} end={15} /> +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Winning award</p>
+                <p className='text-white'>Countries</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -56,13 +56,13 @@ const CounterAreaThree = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={150} /> +
+                          <CountUp delay={0} start={0} end={14} /> +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Complete project</p>
+                <p className='text-white'>Modules</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -75,13 +75,13 @@ const CounterAreaThree = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={180} /> +
+                          <CountUp delay={0} start={0} end={500} /> +
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className='text-white'>Client review</p>
+                <p className='text-white'>Worldwide Client</p>
               </div>
             </div>
           </div>

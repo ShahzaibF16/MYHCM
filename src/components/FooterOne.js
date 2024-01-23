@@ -18,8 +18,8 @@ const FooterOne = () => {
   return (
     <>
       {/* ================== Footer One Start ==================*/}
-      <footer className='footer-area bg-margenta bg-cover'>
-        <div className='footer-subscribe'>
+      <footer className='footer-area bg-base-2 bg-cover pt-4'>
+        {/* <div className='footer-subscribe'>
           <div className='container'>
             <div
               className='footer-subscribe-inner bg-cover'
@@ -38,8 +38,8 @@ const FooterOne = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className='container'>
+        </div> */}
+        <div className='container pt-4'>
           <div className='row'>
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_about'>
