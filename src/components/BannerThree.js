@@ -12,7 +12,7 @@ const BannerThree = () => {
         className='banner-area bg-relative banner-area-2 bg-cover'
         // style={{ backgroundImage: 'url("./assets/img/banner-3/5.png")' }}
       >
-        {/* <img className='bg-img-2' src='assets/img/banner-3/4.png' alt='img' /> */}
+        <img className='bg-img-2' src='assets/img/banner-3/4.png' alt='img' />
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6 align-self-center'>
@@ -23,7 +23,7 @@ const BannerThree = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  YOUR LEAP INTO THE WORLD OF DIGITAL HR
+                  YOUR LEAP INTO THE WORLD OF
                 </h6>
                 <h2
                   className='title'
@@ -31,7 +31,7 @@ const BannerThree = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                  <span>Revolutionizing</span> Workforce
+                   <span>DIGITAL HR</span> REVOLUTIONIZING WORKFORCE
                 </h2>
                 <p
                   className='content pe-xl-5'
@@ -94,7 +94,7 @@ const BannerThree = () => {
 
               </div>
             </div>
-            <div className='col-lg-6 col-md-10'>
+            <div className='col-lg-6 col-md-10 align-center'>
               <div
                 className='banner-thumb-3'
                 data-aos='fade-left'
@@ -104,17 +104,17 @@ const BannerThree = () => {
                 <div className='main-img-wrap'>
                   {/* <img
                     className='banner-animate-img banner-animate-img-1 left_image_bounce'
-                    src='assets/img/banner-3/'
+                    src='assets/img/banner-3/33.png'
                     alt='img'
                   />
                   <img
                     className='banner-animate-img banner-animate-img-2 left_image_bounce'
-                    src='assets/img/banner-3/'
+                    src='assets/img/banner-3/22.png'
                     alt='img'
                   /> */}
                   <img
                     className='main-img left_image_bounce'
-                    src='assets/img/banner-2/c.png'
+                    src='assets/img/banner-3/fourth.png'
                     alt='img'
                   />
                 </div>

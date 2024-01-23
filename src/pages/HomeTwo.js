@@ -56,13 +56,9 @@ const HomeTwo = () => {
       {/* About Area Two */}
       <AboutAreaTwo />
 
-      {/* About Area Two */}
+      {/* Service Domains */}
       <AboutAreaOne />
-      
-      {/* About Area Three */}
-      <AboutAreaThree />
-      
-
+    
       {/* Service Area One */}
       {/* <ServiceAreaOne /> */}
 
@@ -70,12 +66,12 @@ const HomeTwo = () => {
       {/* <ServiceAreaTwo /> */}
 
       {/* Service Area Five */}
-      <ServiceAreaFive />
+      {/* <ServiceAreaFive /> */}
       
       {/* Testimonial Two */}
       <TestimonialTwo />
       {/* Career Area One */}
-      <CareerAreaOne />
+      {/* <CareerAreaOne /> */}
       {/* WorkProcess Three */}
       {/* <WorkProcessThree /> */}
       {/* Case Study Area One */}
@@ -94,11 +90,14 @@ const HomeTwo = () => {
       {/* Contact Area Four */}
       {/* <ContactAreaFour /> */}
 
-      {/* Case Study Area Two */}
-      <CaseStudyAreaTwo />
+      {/* option 2 */}
+      {/* <CaseStudyAreaTwo /> */}
 
-      {/* About Area Six */}
-      <AboutAreaSix />
+      {/* option 1 */}
+      {/* <AboutAreaSix /> */}
+
+      {/* About Area Three */}
+      <AboutAreaThree />
 
       {/* Blog Area Two */}
       <BlogAreaTwo />

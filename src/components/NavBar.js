@@ -94,7 +94,7 @@ const NavBar = () => {
                 <Link to='/'>Home </Link>
               </li>
               <li>
-                <Link to='#'>Why MyHCM</Link>
+                <Link to='/about'>Why MyHCM</Link>
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Modules</a>
@@ -138,7 +138,7 @@ const NavBar = () => {
                 </ul>
               </li>
               <li>
-                <Link to='#'>Blog</Link>
+                <Link to='/blog'>Blog</Link>
               </li>
               <li>
                 <Link to='/team'>Team</Link>

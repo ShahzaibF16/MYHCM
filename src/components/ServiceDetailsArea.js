@@ -93,7 +93,7 @@ const ServiceDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner mb-0'>
                   <div className='thumb'>
-                    <img src='assets/img/service/7.png' alt='img' />
+                    <img src='assets/img/modules/3.png'alt='img' />
                   </div>
                   <div className='details'>
                     <h4>

@@ -31,7 +31,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src='assets/img/service/domains.png'
                   alt='img'
                 />
               </div>
@@ -55,7 +55,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
+                        <img src='assets/img/service-icon/25.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Automobiles</h5>

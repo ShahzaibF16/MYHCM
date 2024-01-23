@@ -18,7 +18,7 @@ const FooterOne = () => {
   return (
     <>
       {/* ================== Footer One Start ==================*/}
-      <footer className='footer-area bg-base-2 bg-cover pt-4'>
+      <footer className='footer-area bg-base-2 bg-cover pd-top-120'>
         {/* <div className='footer-subscribe'>
           <div className='container'>
             <div

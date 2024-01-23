@@ -50,13 +50,10 @@ const AboutAreaSix = () => {
                 data-aos-duration='1500'
               >
                 <div className='section-title mt-5 mt-lg-0 mb-0'>
-                  <h6 className='sub-title-sky-blue'>ABOUT COMPANY</h6>
-                  <h2 className='title'>Innovation Through Is Intelligence</h2>
+                  <h6 className='sub-title-sky-blue'>ATTENDANCE MANAGEMENT SYSTEM</h6>
+                  <h2 className='title'>Geo Fenced Attendance Management</h2>
                   <p className='content'>
-                    Aliquam eros justo, posuere in lobortis non, viverra laoreet
-                    augue. Sed des mattisi fermentum ullamcorper risus
-                    sollicitudin vel. Fusce nec egestas leo mattis oui fermentum
-                    dui.
+                    Mark your attendance with MyHCM's geofenced and geotagged attendance on your mobile device.
                   </p>
                   <p className='small-title'>
                     Vestibulum molestie pharetra dictum Integer interdum gravida

@@ -105,7 +105,7 @@ const BannerTwo = () => {
                   />
                   <img
                     className='main-img'
-                    src='assets/img/banner-2/banner.png'
+                    src='assets/img/banner-2/first.png'
                     alt='img'
                   />
                 </div>

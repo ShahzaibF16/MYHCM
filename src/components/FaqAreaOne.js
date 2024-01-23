@@ -19,7 +19,7 @@ const FaqAreaOne = () => {
               <div className='about-thumb-inner pt-lg-3'>
                 <img
                   className='main-img'
-                  src='assets/img/about/4.png'
+                  src='assets/img/about/bann.png'
                   alt='img'
                 />
                 <img
@@ -41,9 +41,7 @@ const FaqAreaOne = () => {
                   Why <span>MyHCM</span>
                 </h2>
                 <p className='content'>
-                  It is a long established fact that a reader will be distr
-                  acted bioiiy the end gail designa readable content of a page
-                  when looking.
+                  Our values define us. They guide us in building and improving our product, hiring our team, and serving our customers.
                 </p>
               </div>
               <div

@@ -6,7 +6,7 @@ const AboutAreaThree = () => {
   return (
     <>
       {/* =============== About Area Three End ===============*/}
-      <div className='about-area bg-gradient-gray pd-top-120'>
+      <div className='about-area bg-gradient-gray pd-top-120 pd-bottom-60'>
         <div className='container'>
           <div className='row pb-4'>
             <div

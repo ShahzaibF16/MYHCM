@@ -10,8 +10,8 @@ const CaseStudyAreaTwo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-5'>
               <div className='section-title text-center'>
-                <h6 className='sub-title-sky-blue'>WORK GALLERY</h6>
-                <h2 className='title'>Artificial Intelligence Real Results</h2>
+                <h6 className='sub-title-sky-blue'>ATTENDANCE MANAGEMENT SYSTEM</h6>
+                <h2 className='title'>Geo Fenced Attendance Management</h2>
               </div>
             </div>
           </div>

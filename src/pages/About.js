@@ -8,6 +8,7 @@ import FooterOne from "../components/FooterOne";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessFour from "../components/WorkProcessFour";
+import MapImage from "../components/MapImage";
 
 const About = () => {
   return (
@@ -27,8 +28,8 @@ const About = () => {
       {/* Work Process One */}
       <WorkProcessFour />
 
-      {/* Team Area One */}
-      <TeamAreaOne />
+      {/* Map Image */}
+      <MapImage/>
 
       {/* Counter Area One */}
       <CounterAreaOne />
