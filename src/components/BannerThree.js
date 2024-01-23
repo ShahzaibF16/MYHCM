@@ -1,10 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FaPlus } from "react-icons/fa";
-import ModalVideo from "react-modal-video";
+import emailjs from "@emailjs/browser";
+import { toast, Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
 
 const BannerThree = () => {
   const [isOpen, setOpen] = useState(false);
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    // Please See Documentation for more information
+    emailjs
+      .sendForm(
+        "service_f6rbgeo", //YOUR_SERVICE_ID
+        "template_w91oxvd", //YOUR_TEMPLATE_ID
+        form.current,
+        "oNZZAG-q3Fu1rPRGZ" //YOUR_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          if (result.text === "OK") {
+            toast.success("Massage Sent Successfully!");
+            form.current[0].value = "";
+            form.current[1].value = "";
+            form.current[2].value = "";
+            form.current[3].value = "";
+          }
+        },
+        (error) => {
+          if (error.text !== "OK") {
+            toast.success("Message Not Sent!");
+          }
+        }
+      );
+  };
   return (
     <>
       {/* ================== BannerThree Start ==================*/}
@@ -23,7 +53,7 @@ const BannerThree = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  YOUR LEAP INTO THE WORLD OF
+                  YOUR LEAP INTO THE WORLD OF DIGITAL HR
                 </h6>
                 <h2
                   className='title'
@@ -31,7 +61,7 @@ const BannerThree = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                   <span>DIGITAL HR</span> REVOLUTIONIZING WORKFORCE
+                   <span>Revolutionizing </span> Workforce
                 </h2>
                 <p
                   className='content pe-xl-5'
@@ -51,8 +81,8 @@ const BannerThree = () => {
                 >
                   Get Free Demo <FaPlus />
                 </Link> */}
-
-                <form className='mt-2'>
+                <Toaster position='bottom-center' reverseOrder={false} />
+                <form className='mt-2'  ref={form} onSubmit={sendEmail}>
                   <div className='row'>
                     <div className='col-lg-6'>
                       <div className='single-input-inner style-border'>
@@ -114,7 +144,7 @@ const BannerThree = () => {
                   /> */}
                   <img
                     className='main-img left_image_bounce'
-                    src='assets/img/banner-3/fourth.png'
+                    src='assets/img/banner-3/first.png'
                     alt='img'
                   />
                 </div>

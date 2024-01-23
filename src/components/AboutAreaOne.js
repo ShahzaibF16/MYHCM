@@ -31,7 +31,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/service/domains.png'
+                  src='assets/img/about/domain.png'
                   alt='img'
                 />
               </div>
@@ -67,7 +67,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='assets/img/service-icon/14.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Real Estate</h5>
@@ -79,7 +79,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='assets/img/service-icon/16.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Telco</h5>
@@ -93,7 +93,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
+                        <img src='assets/img/service-icon/18.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Education</h5>
@@ -103,7 +103,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='assets/img/service-icon/22.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Pharmaceutical</h5>
@@ -113,7 +113,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='assets/img/service-icon/15.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Banking</h5>
@@ -125,7 +125,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
+                        <img src='assets/img/service-icon/23.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Retail</h5>
@@ -135,7 +135,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='assets/img/service-icon/24.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Health Care</h5>
@@ -145,7 +145,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-4'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='assets/img/service-icon/17.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Technology</h5>

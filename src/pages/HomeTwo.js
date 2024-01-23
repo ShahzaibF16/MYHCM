@@ -52,12 +52,14 @@ const HomeTwo = () => {
 
       {/* Contact Area Three */}
       <ContactAreaThree />
+      
+      {/* Service Domains */}
+      <AboutAreaOne />
 
       {/* About Area Two */}
       <AboutAreaTwo />
 
-      {/* Service Domains */}
-      <AboutAreaOne />
+      
     
       {/* Service Area One */}
       {/* <ServiceAreaOne /> */}
