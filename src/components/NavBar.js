@@ -100,45 +100,45 @@ const NavBar = () => {
                 <a href='#'>Modules</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='#'>Employee Profile</Link>
+                    <Link to='/employee-profile'>Employee Profile</Link>
                   </li>
                   <li>
-                    <Link to='#'>Employee Self Service</Link>
+                    <Link to='/employee-self-service'>Employee Self Service</Link>
                   </li>
                   <li>
-                    <Link to='#'>HR Analytics & Reports</Link>
+                    <Link to='/hr-analytics'>HR Analytics & Reports</Link>
                   </li>
                   <li>
-                    <Link to='#'>Learning Management</Link>
+                    <Link to='/learning-management'>Learning Management</Link>
                   </li>
                   <li>
-                    <Link to='#'>Mobile App</Link>
+                    <Link to='/mobile-app'>Mobile App</Link>
                   </li>
                   <li>
-                    <Link to='#'>Recruitment</Link>
+                    <Link to='/recruitment'>Recruitment</Link>
                   </li>
                   <li>
-                    <Link to='#'>Time Management</Link>
+                    <Link to='/time-management'>Time Management</Link>
                   </li>
                   <li>
-                    <Link to='#'>Organizational Charts</Link>
+                    <Link to='/organization-charts'>Organizational Charts</Link>
                   </li>
                   <li>
-                    <Link to='#'>Leave Absence Management</Link>
+                    <Link to='/leave-management'>Leave Absence Management</Link>
                   </li>
                   <li>
-                    <Link to='#'>Performance Management</Link>
+                    <Link to='/performance-management'>Performance Management</Link>
                   </li>
                   <li>
-                    <Link to='#'>Payroll</Link>
+                    <Link to='/payroll'>Payroll</Link>
                   </li>
                   <li>
-                    <Link to='#'>Voice Enabled Mobile Services</Link>
+                    <Link to='/voice-enabled'>Voice Enabled Mobile Services</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to='/blog'>Blog</Link>
+                <Link to='/contact'>Contact</Link>
               </li>
               <li>
                 <Link to='/team'>Team</Link>

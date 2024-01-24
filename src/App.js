@@ -12,6 +12,18 @@ import Service from "./pages/Service";
 import ServiceDetails from "./pages/ServiceDetails";
 import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
+import EmployeeProfile from "./pages/modules/EmployeeProfile";
+import HrAnalytics from "./pages/modules/HrAnalytics";
+import LearningManagement from "./pages/modules/LearningManagement";
+import LeaveManagement from "./pages/modules/LeaveManagement";
+import MobileApp from "./pages/modules/MobileApp";
+import OrganizationCharts from "./pages/modules/OrganizationCharts";
+import Payroll from "./pages/modules/Payroll";
+import PerformanceManagement from "./pages/modules/PerformanceManagement";
+import Recruitment from "./pages/modules/Recruitment";
+import SelfEmployee from "./pages/modules/SelfEmployee";
+import TimeManagement from "./pages/modules/TimeManagement";
+import VoiceEnabled from "./pages/modules/VoiceEnabled";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -47,8 +59,20 @@ function App() {
         <Route exact path='/service-details' element={<ServiceDetails />} />
         <Route exact path='/team' element={<Team />} />
         <Route exact path='/team-details' element={<TeamDetails />} />
+        <Route exact path='/employee-profile' element={<EmployeeProfile />} />
+        <Route exact path='/employee-self-service' element={<SelfEmployee />} />
+        <Route exact path='/hr-analytics' element={<HrAnalytics />} />
+        <Route exact path='/learning-management' element={<LearningManagement />} />
+        <Route exact path='/leave-management' element={<LeaveManagement />} />
+        <Route exact path='/mobile-app' element={<MobileApp />} />
+        <Route exact path='/organization-charts' element={<OrganizationCharts />} />
+        <Route exact path='/payroll' element={<Payroll />} />
+        <Route exact path='/performance-management' element={<PerformanceManagement />} />
+        <Route exact path='/recruitment' element={<Recruitment />} />
+        <Route exact path='/time-management' element={<TimeManagement />} />
+        <Route exact path='/voice-enabled' element={<VoiceEnabled />} />
       </Routes>
-      <ScrollToTop smooth color='#F77F11' />
+      {/* <ScrollToTop smooth color='#F77F11' /> */}
     </BrowserRouter>
   );
 }

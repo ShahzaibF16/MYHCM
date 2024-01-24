@@ -55,7 +55,7 @@ const ContactMain = () => {
                 />
                 <img
                   className='main-img m-4'
-                  src='assets/img/about/19.png'
+                  src='assets/img/about/119.png'
                   alt='img'
                 />
               </div>

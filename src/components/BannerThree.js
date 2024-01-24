@@ -70,7 +70,7 @@ const BannerThree = () => {
                   data-aos-duration='1500'
                 >
                   Embrace the future with our Modern, Agile, and Scalable
-                  HR software - powered by Microsoft Azure
+                  HR Software - Powered by Microsoft Azure
                 </p>
                 {/* <Link
                   className='btn btn-border-base '

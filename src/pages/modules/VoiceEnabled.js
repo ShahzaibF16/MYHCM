@@ -2,7 +2,7 @@ import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import FooterOne from "../../components/FooterOne";
 import NavBar from "../../components/NavBar";
-import EmployeeProfileDetails from "../../components/modules/EmployeeProfileDetails";
+import VoiceEnabledDetails from "../../components/modules/VoiceEnabledDetails";
 
 const EmployeeProfile = () => {
   return (
@@ -11,10 +11,10 @@ const EmployeeProfile = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Employee Profile"} />
+      <Breadcrumb title={"Voice Enabled Mobile Services"} />
 
       {/* Service Details Area */}
-      <EmployeeProfileDetails />
+      <VoiceEnabledDetails />
 
       {/* Footer One */}
       <FooterOne />

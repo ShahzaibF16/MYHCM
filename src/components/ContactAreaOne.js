@@ -44,37 +44,32 @@ const ContactAreaOne = () => {
                     <div className='row'>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='First Name' />
+                          <input type='text' placeholder='Name Here' name="user_name" required />
                         </div>
                       </div>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Last Name' />
+                          <input type='email' placeholder='Email Here' name="user_email" required />
+                        </div>
+                      </div> 
+                      <div className='col-lg-6'>
+                        <div className='single-input-inner style-border'>
+                          <input type='phone' placeholder='Phone' name="user_phone" />
                         </div>
                       </div>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your Phone' />
+                          <input type='text' placeholder='Job Title/Designation' name="user_job" />
                         </div>
                       </div>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your Email' />
+                          <input type='text' placeholder='Company Name' name="user_company" />
                         </div>
                       </div>
                       <div className='col-lg-6'>
                         <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your City' />
-                        </div>
-                      </div>
-                      <div className='col-lg-6'>
-                        <div className='single-input-inner style-border'>
-                          <input type='text' placeholder='Your Company' />
-                        </div>
-                      </div>
-                      <div className='col-lg-12'>
-                        <div className='single-input-inner style-border'>
-                          <textarea placeholder='Your Query' defaultValue={""} />
+                          <input type='text' placeholder='Industry' name="user_industry" />
                         </div>
                       </div>
                       <div className='col-12'>
