@@ -12,56 +12,32 @@ import WorkProcessTwo from "../components/WorkProcessTwo";
 import AboutAreaThree from "../components/AboutAreaThree";
 import ContactAreaThree from "../components/ContactAreaThree";
 import BrandAreaOne from "../components/BrandAreaOne";
+import BrandAreaTwo from "../components/BrandAreaTwo";
 
 const HomeTwo = () => {
   return (
     <>
-      {/* Navigation Bar Two*/}
       {/* <NavbarTwo /> */}
       <NavBar />
-
-      {/* Banner Two */}
       {/* <BannerTwo /> */}
-      <BannerThree/>
-
-      {/* Counter Area One */}
-      <CounterAreaThree />
+      <BannerThree/>     
+      <BrandAreaOne />
       {/* <CounterAreaFour /> */}
-
-      {/* Contact Area One */}
       {/* <ContactAreaOne /> */}
-
-      {/* Work Process Two */}
       <WorkProcessTwo/>
-
-      {/* Contact Area Three */}
-      <ContactAreaThree />
-      
+      <BrandAreaTwo />
+      <ContactAreaThree />    
       {/* Service Domains */}
       <AboutAreaOne />
-
       {/* About Area Two */}
       <AboutAreaTwo />
-
-      
-      {/* Testimonial Two */}
-
+      <CounterAreaThree />
       {/* option 2 */}
       {/* <CaseStudyAreaTwo /> */}
-
       {/* option 1 */}
       {/* <AboutAreaSix /> */}
-
-      {/* About Area Three */}
       <AboutAreaThree />
-
-      {/* Blog Area Two */}
       <BlogAreaTwo />
-
-      {/* Brand Area One */}
-      <BrandAreaOne />
-
-      {/* Footer Two */}
       <FooterOne />
       {/* <FooterTwo /> */}
     </>
