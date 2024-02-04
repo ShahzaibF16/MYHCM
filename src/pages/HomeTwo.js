@@ -13,6 +13,7 @@ import AboutAreaThree from "../components/AboutAreaThree";
 import ContactAreaThree from "../components/ContactAreaThree";
 import BrandAreaOne from "../components/BrandAreaOne";
 import BrandAreaTwo from "../components/BrandAreaTwo";
+import TestimonialTwo from "../components/TestimonialTwo";
 
 const HomeTwo = () => {
   return (
@@ -37,6 +38,7 @@ const HomeTwo = () => {
       {/* option 1 */}
       {/* <AboutAreaSix /> */}
       <AboutAreaThree />
+      <TestimonialTwo/>
       <BlogAreaTwo />
       <FooterOne />
       {/* <FooterTwo /> */}
