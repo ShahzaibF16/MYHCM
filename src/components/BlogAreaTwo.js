@@ -28,18 +28,18 @@ const BlogAreaTwo = () => {
                   <ul className='blog-meta'>
                     <li className='date'>01 JAN</li>
                     <li>
-                      <FaRegUser /> By MyHCM Admin
+                      <FaRegUser /> By MyHCM
                     </li>
                     <li>
                       <FaRegFolderOpen /> Business
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <Link to='#'>
+                    <Link to='https://myhcm.pk/blogs/the-future-of-hr-how-innovative-software-is-shaping-the-workplace/'>
                       The Future of HR: How Innovative Software is Shaping the Workplace
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' to='https://myhcm.pk/blogs/the-future-of-hr-how-innovative-software-is-shaping-the-workplace/'>
                     Discover More <FaPlus />
                   </Link>
                 </div>
@@ -54,18 +54,18 @@ const BlogAreaTwo = () => {
                   <ul className='blog-meta'>
                     <li className='date'>07 JAN</li>
                     <li>
-                      <FaRegUser /> MyHCM Admin
+                      <FaRegUser /> By MyHCM
                     </li>
                     <li>
                       <FaRegFolderOpen /> Software
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <Link to='#'>
+                    <Link to='https://myhcm.pk/blogs/choosing-the-right-hr-software-a-comprehensive-guide/'>
                       Choosing the Right HR Software: A Comprehensive Guide
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' to='https://myhcm.pk/blogs/choosing-the-right-hr-software-a-comprehensive-guide/'>
                     Discover More <FaPlus />
                   </Link>
                 </div>
@@ -87,11 +87,11 @@ const BlogAreaTwo = () => {
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <Link to='#'>
+                    <Link to='https://myhcm.pk/blogs/overcoming-hr-challenges-with-cloud-based-solutions/'>
                       Overcoming HR Challenges with Cloud-Based Solutions
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' to='https://myhcm.pk/blogs/overcoming-hr-challenges-with-cloud-based-solutions/'>
                     Discover More <FaPlus />
                   </Link>
                 </div>

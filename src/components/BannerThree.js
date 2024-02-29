@@ -55,14 +55,14 @@ const BannerThree = () => {
                 >
                   YOUR LEAP INTO THE WORLD OF DIGITAL HR
                 </h6>
-                <h2
+                <h1
                   className='title'
                   data-aos='fade-right'
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
                    <span>Revolutionizing </span> Workforce
-                </h2>
+                </h1>
                 <p
                   className='content pe-xl-5'
                   data-aos='fade-right'

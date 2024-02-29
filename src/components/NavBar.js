@@ -97,7 +97,7 @@ const NavBar = () => {
                 <Link to='/about'>Why MyHCM</Link>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Modules</a>
+                <a href="#">Modules</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/employee-profile'>Employee Profile</Link>
@@ -136,6 +136,9 @@ const NavBar = () => {
                     <Link to='/voice-enabled'>Voice Enabled Mobile Services</Link>
                   </li>
                 </ul>
+              </li>
+              <li>
+                <Link to='https://myhcm.pk/blogs/' target="_blank">Blogs</Link>
               </li>
               <li>
                 <Link to='/contact'>Contact</Link>
