@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c42ee809.css",
+    "main.js": "/static/js/main.6f650d79.js",
+    "static/media/Outfit-Regular.woff": "/static/media/Outfit-Regular.61028a797d3670fd606f.woff",
+    "static/media/Outfit-ExtraBold.woff": "/static/media/Outfit-ExtraBold.05aa7e3f86544a01b0b7.woff",
+    "static/media/Outfit-Black.woff": "/static/media/Outfit-Black.7383e28b0ff1912760db.woff",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.c42ee809.css.map": "/static/css/main.c42ee809.css.map",
+    "main.6f650d79.js.map": "/static/js/main.6f650d79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c42ee809.css",
+    "static/js/main.6f650d79.js"
+  ]
+}
